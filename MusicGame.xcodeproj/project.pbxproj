@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		424861311BC0E88C00420E2D /* 1335779391.png in Resources */ = {isa = PBXBuildFile; fileRef = 4248612F1BC0E88C00420E2D /* 1335779391.png */; };
+		424861321BC0E88C00420E2D /* sbt-b96_l.png in Resources */ = {isa = PBXBuildFile; fileRef = 424861301BC0E88C00420E2D /* sbt-b96_l.png */; };
+		42520E7F1C0AD7750070A20A /* baseballman.png in Resources */ = {isa = PBXBuildFile; fileRef = 42520E7E1C0AD7750070A20A /* baseballman.png */; };
+		425E01A11BAE70E900FA168D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425E01A01BAE70E900FA168D /* AppDelegate.swift */; };
+		425E01A61BAE70E900FA168D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 425E01A41BAE70E900FA168D /* Main.storyboard */; };
+		425E01A81BAE70E900FA168D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 425E01A71BAE70E900FA168D /* Images.xcassets */; };
+		425E01AB1BAE70E900FA168D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 425E01A91BAE70E900FA168D /* LaunchScreen.xib */; };
+		425E01B71BAE70E900FA168D /* MusicGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425E01B61BAE70E900FA168D /* MusicGameTests.swift */; };
+		425E01C11BAE8C7200FA168D /* sc01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 425E01C01BAE8C7200FA168D /* sc01.mp3 */; };
+		42880ED71CE85B99000BB46A /* 得点板.png in Resources */ = {isa = PBXBuildFile; fileRef = 42880ED61CE85B99000BB46A /* 得点板.png */; };
+		42880ED91CE86422000BB46A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425E01A21BAE70E900FA168D /* ViewController.swift */; };
+		42AFCABB1BE5DCF5003D8C93 /* baseBGM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 42AFCABA1BE5DCF5003D8C93 /* baseBGM.mp3 */; };
+		42BB0B741C4B83B2006151EA /* BASEBALLMAN 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42BB0B731C4B83B2006151EA /* BASEBALLMAN 2.jpg */; };
+		42BB0B761C7051BB006151EA /* navi02_img02.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BB0B751C7051BB006151EA /* navi02_img02.png */; };
+		42BB0B781C7052D2006151EA /* baseballman3.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BB0B771C7052D2006151EA /* baseballman3.png */; };
+		42BB0B7A1C705A49006151EA /* baseballman4.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BB0B791C705A49006151EA /* baseballman4.png */; };
+		42BB0B7C1C705FE4006151EA /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42BB0B7B1C705FE4006151EA /* ResultViewController.swift */; };
+		42BB0B7E1CE82529006151EA /* haikei_ground.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BB0B7D1CE82529006151EA /* haikei_ground.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		425E01B11BAE70E900FA168D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 425E01931BAE70E900FA168D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 425E019A1BAE70E900FA168D;
+			remoteInfo = MusicGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4248612F1BC0E88C00420E2D /* 1335779391.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1335779391.png; sourceTree = "<group>"; };
+		424861301BC0E88C00420E2D /* sbt-b96_l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sbt-b96_l.png"; sourceTree = "<group>"; };
+		42520E7E1C0AD7750070A20A /* baseballman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseballman.png; sourceTree = "<group>"; };
+		425E019B1BAE70E900FA168D /* MusicGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		425E019F1BAE70E900FA168D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		425E01A01BAE70E900FA168D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		425E01A21BAE70E900FA168D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		425E01A51BAE70E900FA168D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		425E01A71BAE70E900FA168D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		425E01AA1BAE70E900FA168D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		425E01B01BAE70E900FA168D /* MusicGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		425E01B51BAE70E900FA168D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		425E01B61BAE70E900FA168D /* MusicGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicGameTests.swift; sourceTree = "<group>"; };
+		425E01C01BAE8C7200FA168D /* sc01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sc01.mp3; sourceTree = "<group>"; };
+		42880ED61CE85B99000BB46A /* 得点板.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "得点板.png"; sourceTree = "<group>"; };
+		42AFCABA1BE5DCF5003D8C93 /* baseBGM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = baseBGM.mp3; sourceTree = "<group>"; };
+		42BB0B731C4B83B2006151EA /* BASEBALLMAN 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "BASEBALLMAN 2.jpg"; sourceTree = "<group>"; };
+		42BB0B751C7051BB006151EA /* navi02_img02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navi02_img02.png; sourceTree = "<group>"; };
+		42BB0B771C7052D2006151EA /* baseballman3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseballman3.png; sourceTree = "<group>"; };
+		42BB0B791C705A49006151EA /* baseballman4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = baseballman4.png; path = ../baseballman4.png; sourceTree = "<group>"; };
+		42BB0B7B1C705FE4006151EA /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		42BB0B7D1CE82529006151EA /* haikei_ground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = haikei_ground.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		425E01981BAE70E900FA168D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		425E01AD1BAE70E900FA168D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		425E01921BAE70E900FA168D = {
+			isa = PBXGroup;
+			children = (
+				425E019D1BAE70E900FA168D /* MusicGame */,
+				425E01B31BAE70E900FA168D /* MusicGameTests */,
+				425E019C1BAE70E900FA168D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		425E019C1BAE70E900FA168D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				425E019B1BAE70E900FA168D /* MusicGame.app */,
+				425E01B01BAE70E900FA168D /* MusicGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		425E019D1BAE70E900FA168D /* MusicGame */ = {
+			isa = PBXGroup;
+			children = (
+				42880ED81CE85BA7000BB46A /* images */,
+				425E01A21BAE70E900FA168D /* ViewController.swift */,
+				425E01A01BAE70E900FA168D /* AppDelegate.swift */,
+				425E01A41BAE70E900FA168D /* Main.storyboard */,
+				425E01A71BAE70E900FA168D /* Images.xcassets */,
+				425E01A91BAE70E900FA168D /* LaunchScreen.xib */,
+				425E019E1BAE70E900FA168D /* Supporting Files */,
+				42BB0B7B1C705FE4006151EA /* ResultViewController.swift */,
+			);
+			path = MusicGame;
+			sourceTree = "<group>";
+		};
+		425E019E1BAE70E900FA168D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				425E019F1BAE70E900FA168D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		425E01B31BAE70E900FA168D /* MusicGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				425E01B61BAE70E900FA168D /* MusicGameTests.swift */,
+				425E01B41BAE70E900FA168D /* Supporting Files */,
+			);
+			path = MusicGameTests;
+			sourceTree = "<group>";
+		};
+		425E01B41BAE70E900FA168D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				425E01B51BAE70E900FA168D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42880ED81CE85BA7000BB46A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				42880ED61CE85B99000BB46A /* 得点板.png */,
+				42BB0B771C7052D2006151EA /* baseballman3.png */,
+				42BB0B731C4B83B2006151EA /* BASEBALLMAN 2.jpg */,
+				42BB0B751C7051BB006151EA /* navi02_img02.png */,
+				42AFCABA1BE5DCF5003D8C93 /* baseBGM.mp3 */,
+				4248612F1BC0E88C00420E2D /* 1335779391.png */,
+				424861301BC0E88C00420E2D /* sbt-b96_l.png */,
+				425E01C01BAE8C7200FA168D /* sc01.mp3 */,
+				42BB0B7D1CE82529006151EA /* haikei_ground.png */,
+				42BB0B791C705A49006151EA /* baseballman4.png */,
+				42520E7E1C0AD7750070A20A /* baseballman.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		425E019A1BAE70E900FA168D /* MusicGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 425E01BA1BAE70E900FA168D /* Build configuration list for PBXNativeTarget "MusicGame" */;
+			buildPhases = (
+				425E01971BAE70E900FA168D /* Sources */,
+				425E01981BAE70E900FA168D /* Frameworks */,
+				425E01991BAE70E900FA168D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicGame;
+			productName = MusicGame;
+			productReference = 425E019B1BAE70E900FA168D /* MusicGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		425E01AF1BAE70E900FA168D /* MusicGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 425E01BD1BAE70E900FA168D /* Build configuration list for PBXNativeTarget "MusicGameTests" */;
+			buildPhases = (
+				425E01AC1BAE70E900FA168D /* Sources */,
+				425E01AD1BAE70E900FA168D /* Frameworks */,
+				425E01AE1BAE70E900FA168D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				425E01B21BAE70E900FA168D /* PBXTargetDependency */,
+			);
+			name = MusicGameTests;
+			productName = MusicGameTests;
+			productReference = 425E01B01BAE70E900FA168D /* MusicGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		425E01931BAE70E900FA168D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "早見　大地";
+				TargetAttributes = {
+					425E019A1BAE70E900FA168D = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					425E01AF1BAE70E900FA168D = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 425E019A1BAE70E900FA168D;
+					};
+				};
+			};
+			buildConfigurationList = 425E01961BAE70E900FA168D /* Build configuration list for PBXProject "MusicGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 425E01921BAE70E900FA168D;
+			productRefGroup = 425E019C1BAE70E900FA168D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				425E019A1BAE70E900FA168D /* MusicGame */,
+				425E01AF1BAE70E900FA168D /* MusicGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		425E01991BAE70E900FA168D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				425E01A61BAE70E900FA168D /* Main.storyboard in Resources */,
+				42880ED71CE85B99000BB46A /* 得点板.png in Resources */,
+				42BB0B7E1CE82529006151EA /* haikei_ground.png in Resources */,
+				424861311BC0E88C00420E2D /* 1335779391.png in Resources */,
+				42BB0B741C4B83B2006151EA /* BASEBALLMAN 2.jpg in Resources */,
+				42AFCABB1BE5DCF5003D8C93 /* baseBGM.mp3 in Resources */,
+				42BB0B781C7052D2006151EA /* baseballman3.png in Resources */,
+				424861321BC0E88C00420E2D /* sbt-b96_l.png in Resources */,
+				42BB0B761C7051BB006151EA /* navi02_img02.png in Resources */,
+				425E01C11BAE8C7200FA168D /* sc01.mp3 in Resources */,
+				425E01AB1BAE70E900FA168D /* LaunchScreen.xib in Resources */,
+				425E01A81BAE70E900FA168D /* Images.xcassets in Resources */,
+				42BB0B7A1C705A49006151EA /* baseballman4.png in Resources */,
+				42520E7F1C0AD7750070A20A /* baseballman.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		425E01AE1BAE70E900FA168D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		425E01971BAE70E900FA168D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42880ED91CE86422000BB46A /* ViewController.swift in Sources */,
+				425E01A11BAE70E900FA168D /* AppDelegate.swift in Sources */,
+				42BB0B7C1C705FE4006151EA /* ResultViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		425E01AC1BAE70E900FA168D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				425E01B71BAE70E900FA168D /* MusicGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		425E01B21BAE70E900FA168D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 425E019A1BAE70E900FA168D /* MusicGame */;
+			targetProxy = 425E01B11BAE70E900FA168D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		425E01A41BAE70E900FA168D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				425E01A51BAE70E900FA168D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		425E01A91BAE70E900FA168D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				425E01AA1BAE70E900FA168D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		425E01B81BAE70E900FA168D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		425E01B91BAE70E900FA168D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		425E01BB1BAE70E900FA168D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MusicGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		425E01BC1BAE70E900FA168D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MusicGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		425E01BE1BAE70E900FA168D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MusicGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicGame.app/MusicGame";
+			};
+			name = Debug;
+		};
+		425E01BF1BAE70E900FA168D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MusicGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicGame.app/MusicGame";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		425E01961BAE70E900FA168D /* Build configuration list for PBXProject "MusicGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				425E01B81BAE70E900FA168D /* Debug */,
+				425E01B91BAE70E900FA168D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		425E01BA1BAE70E900FA168D /* Build configuration list for PBXNativeTarget "MusicGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				425E01BB1BAE70E900FA168D /* Debug */,
+				425E01BC1BAE70E900FA168D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		425E01BD1BAE70E900FA168D /* Build configuration list for PBXNativeTarget "MusicGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				425E01BE1BAE70E900FA168D /* Debug */,
+				425E01BF1BAE70E900FA168D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 425E01931BAE70E900FA168D /* Project object */;
+}

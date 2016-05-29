@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42AFCA6D1BE5AD0B003D8C93 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AFCA6C1BE5AD0B003D8C93 /* AppDelegate.swift */; };
+		42AFCA6F1BE5AD0B003D8C93 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AFCA6E1BE5AD0B003D8C93 /* ViewController.swift */; };
+		42AFCA721BE5AD0B003D8C93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42AFCA701BE5AD0B003D8C93 /* Main.storyboard */; };
+		42AFCA741BE5AD0B003D8C93 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42AFCA731BE5AD0B003D8C93 /* Images.xcassets */; };
+		42AFCA771BE5AD0B003D8C93 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42AFCA751BE5AD0B003D8C93 /* LaunchScreen.xib */; };
+		42AFCA831BE5AD0B003D8C93 /* _______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AFCA821BE5AD0B003D8C93 /* _______Tests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42AFCA7D1BE5AD0B003D8C93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42AFCA5F1BE5AD0B003D8C93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42AFCA661BE5AD0B003D8C93;
+			remoteInfo = "ホームラン競争";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42AFCA671BE5AD0B003D8C93 /* ホームラン競争.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ホームラン競争.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42AFCA6B1BE5AD0B003D8C93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42AFCA6C1BE5AD0B003D8C93 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42AFCA6E1BE5AD0B003D8C93 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42AFCA711BE5AD0B003D8C93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42AFCA731BE5AD0B003D8C93 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		42AFCA761BE5AD0B003D8C93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		42AFCA7C1BE5AD0B003D8C93 /* ホームラン競争Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ホームラン競争Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42AFCA811BE5AD0B003D8C93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42AFCA821BE5AD0B003D8C93 /* _______Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_______Tests.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42AFCA641BE5AD0B003D8C93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42AFCA791BE5AD0B003D8C93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42AFCA5E1BE5AD0B003D8C93 = {
+			isa = PBXGroup;
+			children = (
+				42AFCA691BE5AD0B003D8C93 /* ホームラン競争 */,
+				42AFCA7F1BE5AD0B003D8C93 /* ホームラン競争Tests */,
+				42AFCA681BE5AD0B003D8C93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42AFCA681BE5AD0B003D8C93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42AFCA671BE5AD0B003D8C93 /* ホームラン競争.app */,
+				42AFCA7C1BE5AD0B003D8C93 /* ホームラン競争Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42AFCA691BE5AD0B003D8C93 /* ホームラン競争 */ = {
+			isa = PBXGroup;
+			children = (
+				42AFCA6C1BE5AD0B003D8C93 /* AppDelegate.swift */,
+				42AFCA6E1BE5AD0B003D8C93 /* ViewController.swift */,
+				42AFCA701BE5AD0B003D8C93 /* Main.storyboard */,
+				42AFCA731BE5AD0B003D8C93 /* Images.xcassets */,
+				42AFCA751BE5AD0B003D8C93 /* LaunchScreen.xib */,
+				42AFCA6A1BE5AD0B003D8C93 /* Supporting Files */,
+			);
+			path = "ホームラン競争";
+			sourceTree = "<group>";
+		};
+		42AFCA6A1BE5AD0B003D8C93 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42AFCA6B1BE5AD0B003D8C93 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42AFCA7F1BE5AD0B003D8C93 /* ホームラン競争Tests */ = {
+			isa = PBXGroup;
+			children = (
+				42AFCA821BE5AD0B003D8C93 /* _______Tests.swift */,
+				42AFCA801BE5AD0B003D8C93 /* Supporting Files */,
+			);
+			path = "ホームラン競争Tests";
+			sourceTree = "<group>";
+		};
+		42AFCA801BE5AD0B003D8C93 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42AFCA811BE5AD0B003D8C93 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42AFCA661BE5AD0B003D8C93 /* ホームラン競争 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42AFCA861BE5AD0B003D8C93 /* Build configuration list for PBXNativeTarget "ホームラン競争" */;
+			buildPhases = (
+				42AFCA631BE5AD0B003D8C93 /* Sources */,
+				42AFCA641BE5AD0B003D8C93 /* Frameworks */,
+				42AFCA651BE5AD0B003D8C93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ホームラン競争";
+			productName = "ホームラン競争";
+			productReference = 42AFCA671BE5AD0B003D8C93 /* ホームラン競争.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42AFCA7B1BE5AD0B003D8C93 /* ホームラン競争Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42AFCA891BE5AD0B003D8C93 /* Build configuration list for PBXNativeTarget "ホームラン競争Tests" */;
+			buildPhases = (
+				42AFCA781BE5AD0B003D8C93 /* Sources */,
+				42AFCA791BE5AD0B003D8C93 /* Frameworks */,
+				42AFCA7A1BE5AD0B003D8C93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42AFCA7E1BE5AD0B003D8C93 /* PBXTargetDependency */,
+			);
+			name = "ホームラン競争Tests";
+			productName = "ホームラン競争Tests";
+			productReference = 42AFCA7C1BE5AD0B003D8C93 /* ホームラン競争Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42AFCA5F1BE5AD0B003D8C93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "早見　大地";
+				TargetAttributes = {
+					42AFCA661BE5AD0B003D8C93 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					42AFCA7B1BE5AD0B003D8C93 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 42AFCA661BE5AD0B003D8C93;
+					};
+				};
+			};
+			buildConfigurationList = 42AFCA621BE5AD0B003D8C93 /* Build configuration list for PBXProject "ホームラン競争" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42AFCA5E1BE5AD0B003D8C93;
+			productRefGroup = 42AFCA681BE5AD0B003D8C93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42AFCA661BE5AD0B003D8C93 /* ホームラン競争 */,
+				42AFCA7B1BE5AD0B003D8C93 /* ホームラン競争Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42AFCA651BE5AD0B003D8C93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42AFCA721BE5AD0B003D8C93 /* Main.storyboard in Resources */,
+				42AFCA771BE5AD0B003D8C93 /* LaunchScreen.xib in Resources */,
+				42AFCA741BE5AD0B003D8C93 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42AFCA7A1BE5AD0B003D8C93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42AFCA631BE5AD0B003D8C93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42AFCA6F1BE5AD0B003D8C93 /* ViewController.swift in Sources */,
+				42AFCA6D1BE5AD0B003D8C93 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42AFCA781BE5AD0B003D8C93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42AFCA831BE5AD0B003D8C93 /* _______Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42AFCA7E1BE5AD0B003D8C93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42AFCA661BE5AD0B003D8C93 /* ホームラン競争 */;
+			targetProxy = 42AFCA7D1BE5AD0B003D8C93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42AFCA701BE5AD0B003D8C93 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42AFCA711BE5AD0B003D8C93 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42AFCA751BE5AD0B003D8C93 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42AFCA761BE5AD0B003D8C93 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42AFCA841BE5AD0B003D8C93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42AFCA851BE5AD0B003D8C93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42AFCA871BE5AD0B003D8C93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ホームラン競争/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		42AFCA881BE5AD0B003D8C93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "ホームラン競争/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		42AFCA8A1BE5AD0B003D8C93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ホームラン競争Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ホームラン競争.app/ホームラン競争";
+			};
+			name = Debug;
+		};
+		42AFCA8B1BE5AD0B003D8C93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ホームラン競争Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ホームラン競争.app/ホームラン競争";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42AFCA621BE5AD0B003D8C93 /* Build configuration list for PBXProject "ホームラン競争" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42AFCA841BE5AD0B003D8C93 /* Debug */,
+				42AFCA851BE5AD0B003D8C93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42AFCA861BE5AD0B003D8C93 /* Build configuration list for PBXNativeTarget "ホームラン競争" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42AFCA871BE5AD0B003D8C93 /* Debug */,
+				42AFCA881BE5AD0B003D8C93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		42AFCA891BE5AD0B003D8C93 /* Build configuration list for PBXNativeTarget "ホームラン競争Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42AFCA8A1BE5AD0B003D8C93 /* Debug */,
+				42AFCA8B1BE5AD0B003D8C93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42AFCA5F1BE5AD0B003D8C93 /* Project object */;
+}
