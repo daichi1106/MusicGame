@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6751" systemVersion="14F1021" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AKH-lD-yPM">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6736"/>
     </dependencies>
@@ -22,7 +22,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="FcR-gj-WyE" kind="show" id="14k-O9-kpD"/>
+                                    <segue destination="IDn-xI-49y" kind="show" id="14k-O9-kpD"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -49,18 +49,8 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="haikei_ground.png" translatesAutoresizingMaskIntoConstraints="NO" id="pR6-sP-Gck">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9wJ-FL-aWY">
-                                <rect key="frame" x="231" y="173" width="126" height="79"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <state key="normal" title="リセット">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <connections>
-                                    <action selector="reset" destination="vXZ-lx-hvc" eventType="touchUpInside" id="9eB-B1-Hap"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Ta-rU-JJ0">
-                                <rect key="frame" x="236" y="558" width="124" height="79"/>
+                                <rect key="frame" x="125" y="568" width="124" height="79"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <state key="normal" title="スタート">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -69,8 +59,8 @@
                                     <action selector="start" destination="vXZ-lx-hvc" eventType="touchUpInside" id="Wwg-tS-xIQ"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="baseballman.png" translatesAutoresizingMaskIntoConstraints="NO" id="C3B-et-frb">
-                                <rect key="frame" x="-19" y="377" width="114" height="153"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="C3B-et-frb">
+                                <rect key="frame" x="-9" y="408" width="114" height="153"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="得点板.png" translatesAutoresizingMaskIntoConstraints="NO" id="d7L-li-5O9">
                                 <rect key="frame" x="111" y="0.0" width="264" height="154"/>
@@ -93,14 +83,8 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TIME" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vqP-IO-104">
-                                <rect key="frame" x="186" y="227" width="150" height="101"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rge-lr-sAF">
-                                <rect key="frame" x="88" y="319" width="218" height="104"/>
+                                <rect key="frame" x="111" y="433" width="218" height="104"/>
                                 <state key="normal" image="sbt-b96_l.png">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -145,10 +129,20 @@
                                 </subviews>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="球審" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hb1-f4-hmh">
-                                <rect key="frame" x="16" y="181" width="136" height="33"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9wJ-FL-aWY">
+                                <rect key="frame" x="-9" y="37" width="126" height="79"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
+                                <state key="normal" title="リセット">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="reset" destination="vXZ-lx-hvc" eventType="touchUpInside" id="9eB-B1-Hap"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="TIME" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vqP-IO-104">
+                                <rect key="frame" x="230" y="155" width="150" height="101"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="1" green="0.5" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
@@ -162,8 +156,8 @@
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
                         <outlet property="ballLabel" destination="bpW-6p-rSA" id="gbw-g7-mJK"/>
-                        <outlet property="batarImageView" destination="C3B-et-frb" id="raU-k8-tax"/>
-                        <outlet property="hanteiLabel" destination="Hb1-f4-hmh" id="u1t-9U-qmK"/>
+                        <outlet property="batButton" destination="Rge-lr-sAF" id="WUr-dk-JOt"/>
+                        <outlet property="baterImageView" destination="C3B-et-frb" id="udO-Pc-xhH"/>
                         <outlet property="outLabel" destination="aFw-Zg-EWs" id="XR9-BX-dHQ"/>
                         <outlet property="resetoButton" destination="9wJ-FL-aWY" id="HwY-gI-hs1"/>
                         <outlet property="startButton" destination="3Ta-rU-JJ0" id="L5o-V0-p8R"/>
@@ -173,12 +167,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="842.5" y="184.5"/>
+            <point key="canvasLocation" x="1429.5" y="184.5"/>
         </scene>
-        <!--Result View Controller-->
+        <!--Player View Controller-->
         <scene sceneID="f90-Q5-ADO">
             <objects>
-                <viewController id="FcR-gj-WyE" customClass="ResultViewController" customModule="MusicGame" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="FcR-gj-WyE" customClass="PlayerViewController" customModule="MusicGame" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="CHD-Ho-zIu"/>
                         <viewControllerLayoutGuide type="bottom" id="JH8-C4-NCw"/>
@@ -189,9 +183,6 @@
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BASEBALLMAN 2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="RsU-EH-vmM">
                                 <rect key="frame" x="0.0" y="0.0" width="148" height="223"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="navi02_img02.png" translatesAutoresizingMaskIntoConstraints="NO" id="B3A-wK-ez6">
-                                <rect key="frame" x="188" y="11" width="146" height="217"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="baseballman3.png" translatesAutoresizingMaskIntoConstraints="NO" id="DP8-rv-geI">
                                 <rect key="frame" x="6" y="431" width="155" height="228"/>
@@ -205,7 +196,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="batarfirst" destination="FcR-gj-WyE" eventType="touchUpInside" id="qz5-Zw-fRy"/>
+                                    <action selector="player1Button" destination="FcR-gj-WyE" eventType="touchUpInside" id="Q8U-8A-4yX"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3Ao-8b-zjE">
@@ -214,7 +205,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="batarthird" destination="FcR-gj-WyE" eventType="touchUpInside" id="Nl1-Te-4uc"/>
+                                    <action selector="player4Button" destination="FcR-gj-WyE" eventType="touchUpInside" id="Coh-gu-YaD"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ldm-CY-qED">
@@ -223,7 +214,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="batarsecond" destination="FcR-gj-WyE" eventType="touchUpInside" id="oIS-6E-kkA"/>
+                                    <action selector="player2Button" destination="FcR-gj-WyE" eventType="touchUpInside" id="yde-3H-uGI"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k9Y-qN-78I">
@@ -232,15 +223,44 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="batarshort" destination="FcR-gj-WyE" eventType="touchUpInside" id="5bp-ZF-BBY"/>
+                                    <action selector="player3Button" destination="FcR-gj-WyE" eventType="touchUpInside" id="daq-oM-92T"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="navi02_img02.png" translatesAutoresizingMaskIntoConstraints="NO" id="B3A-wK-ez6">
+                                <rect key="frame" x="188" y="10" width="146" height="217"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" id="yEk-fu-1SG"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="playerButton1" destination="aMd-Nv-x1m" id="RjA-Kk-9sP"/>
+                        <outlet property="playerButton2" destination="ldm-CY-qED" id="gup-YT-pLj"/>
+                        <outlet property="playerButton3" destination="k9Y-qN-78I" id="rw3-lJ-F2e"/>
+                        <outlet property="playerButton4" destination="3Ao-8b-zjE" id="waM-Q4-Gy0"/>
+                        <segue destination="vXZ-lx-hvc" kind="show" identifier="segue2" id="fIv-wL-Uha"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9dd-s7-Mre" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="894.5" y="190.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="vK6-Vb-hr0">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="IDn-xI-49y" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="g9B-uc-jJY">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="FcR-gj-WyE" kind="relationship" relationship="rootViewController" id="rV0-08-vUJ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ynY-Xv-iRX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="307.5" y="190.5"/>
         </scene>

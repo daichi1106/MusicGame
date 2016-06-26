@@ -19,7 +19,8 @@ class ViewController: UIViewController {
     @IBOutlet var startButton: UIButton!
     @IBOutlet var resetoButton: UIButton!
     //バッターの画像を表示するImageView
-    @IBOutlet var batarImageView: UIImageView!
+    var baterImage: UIImage!
+    @IBOutlet var baterImageView: UIImageView!
     
     var count: Float = 0.0
     var timer: NSTimer = NSTimer()
@@ -57,6 +58,8 @@ class ViewController: UIViewController {
         strikeLabel.text = ""
         ballLabel.text = ""
         outLabel.text = ""
+        
+        baterImageView.image = baterImage
         
     }
     

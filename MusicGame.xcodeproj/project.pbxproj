@@ -18,6 +18,7 @@
 		425E01C11BAE8C7200FA168D /* sc01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 425E01C01BAE8C7200FA168D /* sc01.mp3 */; };
 		42880ED71CE85B99000BB46A /* 得点板.png in Resources */ = {isa = PBXBuildFile; fileRef = 42880ED61CE85B99000BB46A /* 得点板.png */; };
 		42880ED91CE86422000BB46A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425E01A21BAE70E900FA168D /* ViewController.swift */; };
+		42880F0B1D0D2C20000BB46A /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42880F081D0D0CA2000BB46A /* PlayerViewController.swift */; };
 		42AFCABB1BE5DCF5003D8C93 /* baseBGM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 42AFCABA1BE5DCF5003D8C93 /* baseBGM.mp3 */; };
 		42BB0B741C4B83B2006151EA /* BASEBALLMAN 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42BB0B731C4B83B2006151EA /* BASEBALLMAN 2.jpg */; };
 		42BB0B761C7051BB006151EA /* navi02_img02.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BB0B751C7051BB006151EA /* navi02_img02.png */; };
@@ -53,6 +54,7 @@
 		425E01B61BAE70E900FA168D /* MusicGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicGameTests.swift; sourceTree = "<group>"; };
 		425E01C01BAE8C7200FA168D /* sc01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sc01.mp3; sourceTree = "<group>"; };
 		42880ED61CE85B99000BB46A /* 得点板.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "得点板.png"; sourceTree = "<group>"; };
+		42880F081D0D0CA2000BB46A /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.simpleColoring; };
 		42AFCABA1BE5DCF5003D8C93 /* baseBGM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = baseBGM.mp3; sourceTree = "<group>"; };
 		42BB0B731C4B83B2006151EA /* BASEBALLMAN 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "BASEBALLMAN 2.jpg"; sourceTree = "<group>"; };
 		42BB0B751C7051BB006151EA /* navi02_img02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navi02_img02.png; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 			children = (
 				42880ED81CE85BA7000BB46A /* images */,
 				425E01A21BAE70E900FA168D /* ViewController.swift */,
+				42880F081D0D0CA2000BB46A /* PlayerViewController.swift */,
 				425E01A01BAE70E900FA168D /* AppDelegate.swift */,
 				425E01A41BAE70E900FA168D /* Main.storyboard */,
 				425E01A71BAE70E900FA168D /* Images.xcassets */,
@@ -268,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				42880ED91CE86422000BB46A /* ViewController.swift in Sources */,
+				42880F0B1D0D2C20000BB46A /* PlayerViewController.swift in Sources */,
 				425E01A11BAE70E900FA168D /* AppDelegate.swift in Sources */,
 				42BB0B7C1C705FE4006151EA /* ResultViewController.swift in Sources */,
 			);
