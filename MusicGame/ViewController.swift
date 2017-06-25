@@ -273,6 +273,15 @@ class ViewController: UIViewController {
     }
     
     @IBAction func tapBatButton() {
+        timer.invalidate()
+        let layer:CALayer = batButton.layer
+        let animation:CABasicAnimation = CABasicAnimation(keyPath: "transform.rotation")
+        animation.toValue = Double.pi / 2.0
+        animation.duration = 0.5           //0.5秒で90度回転
+        animation.repeatCount = MAXFLOAT  //無限に繰り返す
+        animation.isRemovedOnCompletion = true     //効果を累積
+        layer.add(animation, forKey: nil)
+
         
     }
     
