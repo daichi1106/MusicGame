@@ -25,10 +25,10 @@ class ViewController: UIViewController {
     
     var count: Float = 0.0
     var timer: Timer = Timer()
+    var countUpTimer: Timer = Timer()
     
     var speed: Float = 0.0
     //
-    var label: UILabel!
     var ballImageView: UIImageView!
     
     @IBOutlet var strikeLabel: UILabel!
@@ -48,29 +48,86 @@ class ViewController: UIViewController {
     var hit: Bool!
     var fall: Bool!
     
+    var countUpNumber: Float = 0.0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        strikeNumber = 0
+        _ = UILabel()//日常表示ラベルstrikeNumber = 0
         ballNumber = 0
         outNumber = 0
         
         strikeLabel.text = ""
         ballLabel.text = ""
         outLabel.text = ""
-        
         baterImageView.image = baterImage
+        //初回
+        updateDateLabel()
+        
+        //一定間隔で実行
+        countUpTimer = Timer.scheduledTimer(timeInterval: 0.01, target: self, selector: #selector(countUp), userInfo: nil, repeats: true)
+        countUpTimer.fire()
+        
+        //日時フオーマット
+        var dateFormatter: DateFormatter {
+            let formatter  = DateFormatter()
+            formatter.dateFormat = "yyyy/MM/dd HH:mm:ss"
+            return formatter
+        }
+        
+        
+        //Timerを破棄する
+        timer.invalidate()
+        let layer:CALayer = batButton.layer
+        let animation:CABasicAnimation = CABasicAnimation(keyPath: "transform.rotation")
+        animation.toValue = Double.pi / 2.0
+        animation.duration = 0.5           //0.5秒で90度回転
+        animation.repeatCount = MAXFLOAT  //無限に繰り返す
+        animation.isRemovedOnCompletion = true     //効果を累積
+        layer.add(animation, forKey: nil)
+        
         
     }
     
-    @IBAction func reset() {
-        
+    
+    
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(true)
         
     }
     
+    func countUp() {
+        
+        countUpNumber = countUpNumber + 0.01
+        timeLabel.text = String(countUpNumber)
+    }
     
-    @IBAction func start() {
+    
+    //日常表示ラベル更新メソッド
+    func updateDateLabel(){
+        
+    }
+    
+    func update(tm: Timer) {
+        //do something
+    }
+    
+    
+    
+    
+    func stop() {
+        if timer.isValid {
+            //タイマーが動作していたら停止する
+            timer.invalidate()
+        }
+    }
+    
+    
+    
+    
+    func start() {
         
         if !timer.isValid {
         }
@@ -82,14 +139,14 @@ class ViewController: UIViewController {
         ballImageView.image = ballImage
         ballImageView.backgroundColor = UIColor.clear
         
-        let angle:CGFloat = CGFloat((30.0 * M_PI) / 180.0)
+        let angle:CGFloat = CGFloat((30.0 * Double.pi) / 180.0)
         batButton.transform = CGAffineTransform(rotationAngle: angle)
         
         
         self.view.addSubview(ballImageView)
         
         
-        let appframe: CGRect = UIScreen.main.applicationFrame
+        let appframe: CGRect = UIScreen.main.bounds
         speed = Float(appframe.size.height) / 1.2
         
         //音楽フアイルの指定
@@ -111,11 +168,10 @@ class ViewController: UIViewController {
     
     func up() {
         count = count + 0.01
-        timeLabel.text = String(format:"%.2f" , count)
+        timeLabel.text = String(format:"%.2f" , countUp as! CVarArg)
         
         if 10.0 - 1.2 <= count {
-            
-            var number : Float = (self.count - 10.0 + 1.2) * speed - 75
+            _ = 0.0 + 1.2 * self.speed - 75
             ballImageView.frame = CGRect(x: 0, y: 0, width: 0, height: 0)
             
         }
@@ -133,10 +189,10 @@ class ViewController: UIViewController {
             hit = false
             fall = false
             
-            performSegue(withIdentifier: "toViewController2", sender: self)
+            performSegue(withIdentifier: "toViewController2", sender: SELF_LIBRARY_ORDINAL)
             return "ホームラン"
         } else if count > number - 0.30 && count < number + 0.30 {
-            //もし経過時間が9.5秒〜10.5秒だったら
+            //もし経過時間が9.5秒〜10.5だったら
             homerun = false
             twobasehit = false
             hit = true
@@ -171,7 +227,7 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    @IBAction func modoru(){
+    func reset(){
         count = 0
     }
     func jidoudemodoru(){
@@ -194,11 +250,11 @@ class ViewController: UIViewController {
     }
     
     
-    @IBAction func pushButton() {
+    func pushButton() {
         timer.invalidate()
         
         hanteiLabel.text = self.hantei(number: 10.0)
-        let angle:CGFloat = CGFloat((-30.0 * M_PI) / 180.0)
+        let angle:CGFloat = CGFloat((-30.0 * Double.pi) / 180.0)
         
         // アニメーションの秒数を設定
         UIView.animate(withDuration: 0.3,
@@ -213,8 +269,17 @@ class ViewController: UIViewController {
                         self.batButton.transform = CGAffineTransform(rotationAngle: -angle)
                         
         })
+        
+    }
+    
+    @IBAction func tapBatButton() {
+        
     }
     
     
+    
+    
 }
+
+
 

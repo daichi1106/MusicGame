@@ -23,11 +23,11 @@
 		426B34761D97BB6F002BF2FD /* 野球場イメージ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 426B34751D97BB6F002BF2FD /* 野球場イメージ.jpg */; };
 		426B34781D97BBE0002BF2FD /* 野球場イメージ.png in Resources */ = {isa = PBXBuildFile; fileRef = 426B34771D97BBE0002BF2FD /* 野球場イメージ.png */; };
 		42880ED71CE85B99000BB46A /* 得点板.png in Resources */ = {isa = PBXBuildFile; fileRef = 42880ED61CE85B99000BB46A /* 得点板.png */; };
-		42880F0B1D0D2C20000BB46A /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42880F081D0D0CA2000BB46A /* PlayerViewController.swift */; };
 		429DD61A1D31F98C003E7DD4 /* バッターイメージ.png in Resources */ = {isa = PBXBuildFile; fileRef = 429DD6191D31F98C003E7DD4 /* バッターイメージ.png */; };
 		429DD61C1D3209A6003E7DD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429DD61B1D3209A6003E7DD4 /* ViewController.swift */; };
 		429DD6201D321C18003E7DD4 /* バッターイメージ２.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 429DD61F1D321C18003E7DD4 /* バッターイメージ２.jpg */; };
 		42AFCABB1BE5DCF5003D8C93 /* baseBGM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 42AFCABA1BE5DCF5003D8C93 /* baseBGM.mp3 */; };
+		42B0A1541EDA6915001EDCE1 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B0A1531EDA6915001EDCE1 /* PlayerViewController.swift */; };
 		42BB0B741C4B83B2006151EA /* BASEBALLMAN 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 42BB0B731C4B83B2006151EA /* BASEBALLMAN 2.jpg */; };
 		42BB0B761C7051BB006151EA /* navi02_img02.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BB0B751C7051BB006151EA /* navi02_img02.png */; };
 		42BB0B781C7052D2006151EA /* baseballman3.png in Resources */ = {isa = PBXBuildFile; fileRef = 42BB0B771C7052D2006151EA /* baseballman3.png */; };
@@ -68,11 +68,11 @@
 		426B34751D97BB6F002BF2FD /* 野球場イメージ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "野球場イメージ.jpg"; sourceTree = "<group>"; };
 		426B34771D97BBE0002BF2FD /* 野球場イメージ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "野球場イメージ.png"; sourceTree = "<group>"; };
 		42880ED61CE85B99000BB46A /* 得点板.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "得点板.png"; sourceTree = "<group>"; };
-		42880F081D0D0CA2000BB46A /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.simpleColoring; };
 		429DD6191D31F98C003E7DD4 /* バッターイメージ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "バッターイメージ.png"; sourceTree = "<group>"; };
 		429DD61B1D3209A6003E7DD4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		429DD61F1D321C18003E7DD4 /* バッターイメージ２.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "バッターイメージ２.jpg"; sourceTree = "<group>"; };
 		42AFCABA1BE5DCF5003D8C93 /* baseBGM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = baseBGM.mp3; sourceTree = "<group>"; };
+		42B0A1531EDA6915001EDCE1 /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 		42BB0B731C4B83B2006151EA /* BASEBALLMAN 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "BASEBALLMAN 2.jpg"; sourceTree = "<group>"; };
 		42BB0B751C7051BB006151EA /* navi02_img02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navi02_img02.png; sourceTree = "<group>"; };
 		42BB0B771C7052D2006151EA /* baseballman3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseballman3.png; sourceTree = "<group>"; };
@@ -188,8 +188,8 @@
 			children = (
 				429DD61B1D3209A6003E7DD4 /* ViewController.swift */,
 				42C6CBFB1DAA0FB500D1D01A /* ViewController2.swift */,
-				42880F081D0D0CA2000BB46A /* PlayerViewController.swift */,
 				42BB0B7B1C705FE4006151EA /* ResultViewController.swift */,
+				42B0A1531EDA6915001EDCE1 /* PlayerViewController.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -323,10 +323,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				42C6CBFC1DAA0FB500D1D01A /* ViewController2.swift in Sources */,
-				42880F0B1D0D2C20000BB46A /* PlayerViewController.swift in Sources */,
 				425E01A11BAE70E900FA168D /* AppDelegate.swift in Sources */,
 				429DD61C1D3209A6003E7DD4 /* ViewController.swift in Sources */,
 				42BB0B7C1C705FE4006151EA /* ResultViewController.swift in Sources */,
+				42B0A1541EDA6915001EDCE1 /* PlayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

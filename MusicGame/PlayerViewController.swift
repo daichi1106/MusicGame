@@ -2,8 +2,8 @@
 //  PlayerViewController.swift
 //  MusicGame
 //
-//  Created by 早見　大地 on 2016/06/12.
-//  Copyright (c) 2016年 早見　大地. All rights reserved.
+//  Created by 早見　大地 on 2017/05/28.
+//  Copyright © 2017年 早見　大地. All rights reserved.
 //
 
 import UIKit
@@ -11,11 +11,12 @@ import UIKit
 class PlayerViewController: UIViewController {
     
     //Playerを表示させるLabel
-    @IBOutlet var バッターイメージ２: UIButton!
-    @IBOutlet var バッターイメージ３: UIButton!
-    @IBOutlet var バッターイメージ４: UIButton!
-    @IBOutlet var バッターイメージ５: UIButton!
+    @IBOutlet var batterImage2: UIButton!
+    @IBOutlet var batterImage3: UIButton!
+    @IBOutlet var batterImage4: UIButton!
+    @IBOutlet var batterImage5: UIButton!
     var image : UIImage!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -23,36 +24,39 @@ class PlayerViewController: UIViewController {
     }
     @IBAction func player2Button() {
         //してほしい動作
-        image = UIImage(named:"バッターイメージ２.png")
+        image = UIImage(named:"batterImage2.png")
         self.performSegue(withIdentifier: "Segue2", sender: nil)
+        
     }
+    
     @IBAction func player３Button() {
         //してほしい動作
-        image = UIImage(named:"バッターイメージ3.png")
+        image = UIImage(named:"batterImage3.png")
         self.performSegue(withIdentifier: "Segue2", sender: nil)
     }
+    
     @IBAction func player４Button() {
         //してほしい動作
-        image = UIImage(named:"バッターイメージ4.png")
+        image = UIImage(named:"batterImage4.png")
         self.performSegue(withIdentifier: "Segue2", sender: nil)
     }
     
     @IBAction func player5Buttonn() {
         //してほしい動作
-        image = UIImage(named:"バッターイメージ５.png")
-        self.performSegue(withIdentifier: "segue2", sender: nil)
+        image = UIImage(named:"batterImage5.png")
+        self.performSegue(withIdentifier: "Segue2", sender: nil)
         
     }
     
     @IBAction func player1Button() {
         //してほしい動作
-        image = UIImage(named:"バッターイメージ.png")
-        self.performSegue(withIdentifier: "segue2", sender: nil)
+        image = UIImage(named:"batterImage.png")
+        self.performSegue(withIdentifier: "Segue2", sender: nil)
     }
     
     
     override func prepare(for segue: UIStoryboardSegue,sender: Any?) {
-        if segue.identifier == "segue2"{
+        if segue.identifier == "Segue2"{
             
             _ = segue.destination as! ViewController
         }

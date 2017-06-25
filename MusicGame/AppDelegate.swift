@@ -12,12 +12,7 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var number: Int = 0
-    @IBOutlet var label: UILabel!
-    @IBAction func plus() {
-         number = number + 1
-         label.text = String(number)
-    }
-    var window: UIWindow?
+        var window: UIWindow?
 
 
     private func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
