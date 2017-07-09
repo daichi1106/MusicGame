@@ -19,6 +19,7 @@ class ViewController: UIViewController {
     @IBOutlet var startButton: UIButton!
     @IBOutlet var resetoButton: UIButton!
     @IBOutlet var baseImageView: UIImageView!
+    var animationTimer: Timer = Timer()
     //バッターの画像を表示するImageView
     var baterImage: UIImage!
     @IBOutlet var baterImageView: UIImageView!
@@ -42,7 +43,6 @@ class ViewController: UIViewController {
     var number: Float = 10.0
     var mode:Int!
     var audio:AVPlayer!
-    
     var homerun: Bool!
     var twobasehit: Bool!
     var hit: Bool!
@@ -250,14 +250,22 @@ class ViewController: UIViewController {
     }
     
     
-    func pushButton() {
+    @IBAction func pushButton() {
         timer.invalidate()
         
         hanteiLabel.text = self.hantei(number: 10.0)
         let angle:CGFloat = CGFloat((-30.0 * Double.pi) / 180.0)
         
+        // animationTimerを使って0.1秒ごとにanimationUpdateを呼び出す
+        timer = Timer.scheduledTimer(timeInterval: 0.1, target: self, selector: #selector(self.update), userInfo: nil, repeats: true)
+        
         // アニメーションの秒数を設定
         UIView.animate(withDuration: 0.3,
+                       
+                       
+                       
+                       
+                       
                        
                        animations: { () -> Void in
                         
@@ -270,18 +278,31 @@ class ViewController: UIViewController {
                         
         })
         
+        
     }
     
-    @IBAction func tapBatButton() {
+    // 0.01秒ごとにanimationTimerによって呼ばれる
+    func animationUpdate() {
+        
+        
+        
+        
+    }
+    
+    func tapBatButton() {
         timer.invalidate()
         let layer:CALayer = batButton.layer
         let animation:CABasicAnimation = CABasicAnimation(keyPath: "transform.rotation")
         animation.toValue = Double.pi / 2.0
         animation.duration = 0.5           //0.5秒で90度回転
-        animation.repeatCount = MAXFLOAT  //無限に繰り返す
+        if count >= 10 {
+            animation.duration = 1.0
+        }
+        animation.repeatCount = 1 //1回ループ
         animation.isRemovedOnCompletion = true     //効果を累積
         layer.add(animation, forKey: nil)
-
+        
+        
         
     }
     
