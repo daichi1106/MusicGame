@@ -19,6 +19,13 @@ class ViewController: UIViewController {
     @IBOutlet var startButton: UIButton!
     @IBOutlet var resetoButton: UIButton!
     @IBOutlet var baseImageView: UIImageView!
+    @IBOutlet var strikeFirstlabel: UIView!
+    @IBOutlet var strikeSecondlabel: UIView!
+    @IBOutlet var ballFirstlabel: UIView!
+    @IBOutlet var ballSecondlabel: UIView!
+    @IBOutlet var ballThirdlabel: UIView!
+    @IBOutlet var outFirstlabel: UIView!
+    @IBOutlet var outSecondlabel: UIView!
     var animationTimer: Timer = Timer()
     //バッターの画像を表示するImageView
     var baterImage: UIImage!
@@ -47,11 +54,19 @@ class ViewController: UIViewController {
     var twobasehit: Bool!
     var hit: Bool!
     var fall: Bool!
+    var strikecount: Int = 0
     
     var countUpNumber: Float = 0.0
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        strikeFirstlabel.layer.cornerRadius = strikeFirstlabel.frame.width/2
+        strikeSecondlabel.layer.cornerRadius = strikeSecondlabel.frame.width/2
+        ballFirstlabel.layer.cornerRadius = ballFirstlabel.frame.width/2
+        ballSecondlabel.layer.cornerRadius = ballSecondlabel.frame.width/2
+        ballThirdlabel.layer.cornerRadius = ballThirdlabel.frame.width/2
+        outFirstlabel.layer.cornerRadius = outFirstlabel.frame.width/2
+        outSecondlabel.layer.cornerRadius = outSecondlabel.frame.width/2
         // Do any additional setup after loading the view, typically from a nib.
         
         _ = UILabel()//日常表示ラベルstrikeNumber = 0
@@ -208,11 +223,21 @@ class ViewController: UIViewController {
             fall = true
             strikeLabel.text = "⚫︎"
             return "フアール"//フアールと表示
+        }else {
+            if strikecount == 0 {
+                strikecount = 1
+                
+                strikeFirstlabel.backgroundColor = UIColor.yellow
+            }else if strikecount == 1{
+            strikecount = 2
         }
+        
         strikeLabel.text = "⚫︎"
         
         return "ファール"
     }
+    
+    
     //
     //        if strikeNumber　== "⚫︎"{
     //            strikeLabel.backnumber color = UIColor.yellowColor()
@@ -221,6 +246,7 @@ class ViewController: UIViewController {
     //+"⚫︎"　ストライクカウント
     //
     //    }
+    
     
     
     override func didReceiveMemoryWarning() {
@@ -284,7 +310,7 @@ class ViewController: UIViewController {
     // 0.01秒ごとにanimationTimerによって呼ばれる
     func animationUpdate() {
         
-        
+        // ボールの座標とバットの座標が一致したら
         
         
     }

@@ -23,6 +23,117 @@
 		426B34761D97BB6F002BF2FD /* 野球場イメージ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 426B34751D97BB6F002BF2FD /* 野球場イメージ.jpg */; };
 		426B34781D97BBE0002BF2FD /* 野球場イメージ.png in Resources */ = {isa = PBXBuildFile; fileRef = 426B34771D97BBE0002BF2FD /* 野球場イメージ.png */; };
 		42880ED71CE85B99000BB46A /* 得点板.png in Resources */ = {isa = PBXBuildFile; fileRef = 42880ED61CE85B99000BB46A /* 得点板.png */; };
+		428A2EC61F6E16AE00A5265C /* f22d8ea7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 428A2EC51F6E16AE00A5265C /* f22d8ea7.jpg */; };
+		428A2F011F6E172700A5265C /* 1335779391.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 428A2EC81F6E172700A5265C /* 1335779391.jpg */; };
+		428A2F021F6E172700A5265C /* baseballman4.png in Resources */ = {isa = PBXBuildFile; fileRef = 428A2EC91F6E172700A5265C /* baseballman4.png */; };
+		428A2F031F6E172700A5265C /* f22d8ea7.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 428A2ECA1F6E172700A5265C /* f22d8ea7.jpg */; };
+		428A2F041F6E172700A5265C /* 1335779391.png in Resources */ = {isa = PBXBuildFile; fileRef = 428A2ECC1F6E172700A5265C /* 1335779391.png */; };
+		428A2F051F6E172700A5265C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428A2ECD1F6E172700A5265C /* AppDelegate.swift */; };
+		428A2F061F6E172700A5265C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 428A2ECE1F6E172700A5265C /* LaunchScreen.xib */; };
+		428A2F071F6E172700A5265C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 428A2ED01F6E172700A5265C /* Main.storyboard */; };
+		428A2F081F6E172700A5265C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428A2ED41F6E172700A5265C /* AppDelegate.swift */; };
+		428A2F091F6E172700A5265C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 428A2ED51F6E172700A5265C /* LaunchScreen.xib */; };
+		428A2F0A1F6E172700A5265C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 428A2ED71F6E172700A5265C /* Main.storyboard */; };
+		428A2F0B1F6E172700A5265C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 428A2ED91F6E172700A5265C /* Images.xcassets */; };
+		428A2F0C1F6E172700A5265C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 428A2EDA1F6E172700A5265C /* Info.plist */; };
+		428A2F0D1F6E172700A5265C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428A2EDB1F6E172700A5265C /* ViewController.swift */; };
+		428A2F0E1F6E172700A5265C /* _______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428A2EE01F6E172700A5265C /* _______Tests.swift */; };
+		428A2F0F1F6E172700A5265C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 428A2EE11F6E172700A5265C /* Info.plist */; };
+		428A2F101F6E172700A5265C /* BASEBALLMAN 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 428A2EE21F6E172700A5265C /* BASEBALLMAN 2.jpg */; };
+		428A2F111F6E172700A5265C /* baseballman.png in Resources */ = {isa = PBXBuildFile; fileRef = 428A2EE31F6E172700A5265C /* baseballman.png */; };
+		428A2F121F6E172700A5265C /* baseballman3.png in Resources */ = {isa = PBXBuildFile; fileRef = 428A2EE41F6E172700A5265C /* baseballman3.png */; };
+		428A2F131F6E172700A5265C /* baseBGM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 428A2EE51F6E172700A5265C /* baseBGM.mp3 */; };
+		428A2F141F6E172700A5265C /* haikei_ground.png in Resources */ = {isa = PBXBuildFile; fileRef = 428A2EE61F6E172700A5265C /* haikei_ground.png */; };
+		428A2F151F6E172700A5265C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 428A2EE71F6E172700A5265C /* Images.xcassets */; };
+		428A2F161F6E172700A5265C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 428A2EE81F6E172700A5265C /* Info.plist */; };
+		428A2F171F6E172700A5265C /* navi02_img02.png in Resources */ = {isa = PBXBuildFile; fileRef = 428A2EE91F6E172700A5265C /* navi02_img02.png */; };
+		428A2F181F6E172700A5265C /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428A2EEA1F6E172700A5265C /* PlayerViewController.swift */; };
+		428A2F191F6E172700A5265C /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428A2EEB1F6E172700A5265C /* ResultViewController.swift */; };
+		428A2F1A1F6E172700A5265C /* sbt-b96_l.png in Resources */ = {isa = PBXBuildFile; fileRef = 428A2EEC1F6E172700A5265C /* sbt-b96_l.png */; };
+		428A2F1B1F6E172700A5265C /* sc01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 428A2EED1F6E172700A5265C /* sc01.mp3 */; };
+		428A2F1C1F6E172700A5265C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428A2EEE1F6E172700A5265C /* ViewController.swift */; };
+		428A2F1D1F6E172700A5265C /* バッターイメージ.png in Resources */ = {isa = PBXBuildFile; fileRef = 428A2EEF1F6E172700A5265C /* バッターイメージ.png */; };
+		428A2F1E1F6E172700A5265C /* バッターイメージ3.png in Resources */ = {isa = PBXBuildFile; fileRef = 428A2EF01F6E172700A5265C /* バッターイメージ3.png */; };
+		428A2F1F1F6E172700A5265C /* バッターイメージ4.png in Resources */ = {isa = PBXBuildFile; fileRef = 428A2EF11F6E172700A5265C /* バッターイメージ4.png */; };
+		428A2F201F6E172700A5265C /* バッターイメージ5.png in Resources */ = {isa = PBXBuildFile; fileRef = 428A2EF21F6E172700A5265C /* バッターイメージ5.png */; };
+		428A2F211F6E172700A5265C /* バッターイメージ２.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 428A2EF31F6E172700A5265C /* バッターイメージ２.jpg */; };
+		428A2F221F6E172700A5265C /* バッターイメージ２.png in Resources */ = {isa = PBXBuildFile; fileRef = 428A2EF41F6E172700A5265C /* バッターイメージ２.png */; };
+		428A2F231F6E172700A5265C /* 得点板.png in Resources */ = {isa = PBXBuildFile; fileRef = 428A2EF51F6E172700A5265C /* 得点板.png */; };
+		428A2F241F6E172700A5265C /* 野球場イメージ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 428A2EF61F6E172700A5265C /* 野球場イメージ.jpg */; };
+		428A2F251F6E172700A5265C /* 野球場イメージ.png in Resources */ = {isa = PBXBuildFile; fileRef = 428A2EF71F6E172700A5265C /* 野球場イメージ.png */; };
+		428A2F261F6E172700A5265C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 428A2EFC1F6E172700A5265C /* Info.plist */; };
+		428A2F271F6E172700A5265C /* MusicGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428A2EFD1F6E172700A5265C /* MusicGameTests.swift */; };
+		428A2F281F6E172700A5265C /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 428A2EFE1F6E172700A5265C /* README.md */; };
+		428A2F291F6E172700A5265C /* sbt-b96_l.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 428A2EFF1F6E172700A5265C /* sbt-b96_l.jpg */; };
+		428A2F2A1F6E172700A5265C /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428A2F001F6E172700A5265C /* ViewController2.swift */; };
+		428A2F5E1F6E174900A5265C /* 1335779391.png in Resources */ = {isa = PBXBuildFile; fileRef = 428A2F321F6E174900A5265C /* 1335779391.png */; };
+		428A2F5F1F6E174900A5265C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428A2F331F6E174900A5265C /* AppDelegate.swift */; };
+		428A2F601F6E174900A5265C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 428A2F341F6E174900A5265C /* LaunchScreen.xib */; };
+		428A2F611F6E174900A5265C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 428A2F361F6E174900A5265C /* Main.storyboard */; };
+		428A2F621F6E174900A5265C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428A2F3A1F6E174900A5265C /* AppDelegate.swift */; };
+		428A2F631F6E174900A5265C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 428A2F3B1F6E174900A5265C /* LaunchScreen.xib */; };
+		428A2F641F6E174900A5265C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 428A2F3D1F6E174900A5265C /* Main.storyboard */; };
+		428A2F651F6E174900A5265C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 428A2F3F1F6E174900A5265C /* Images.xcassets */; };
+		428A2F661F6E174900A5265C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 428A2F401F6E174900A5265C /* Info.plist */; };
+		428A2F671F6E174900A5265C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428A2F411F6E174900A5265C /* ViewController.swift */; };
+		428A2F681F6E174900A5265C /* _______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428A2F461F6E174900A5265C /* _______Tests.swift */; };
+		428A2F691F6E174900A5265C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 428A2F471F6E174900A5265C /* Info.plist */; };
+		428A2F6A1F6E174900A5265C /* BASEBALLMAN 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 428A2F481F6E174900A5265C /* BASEBALLMAN 2.jpg */; };
+		428A2F6B1F6E174900A5265C /* baseballman.png in Resources */ = {isa = PBXBuildFile; fileRef = 428A2F491F6E174900A5265C /* baseballman.png */; };
+		428A2F6C1F6E174900A5265C /* baseballman3.png in Resources */ = {isa = PBXBuildFile; fileRef = 428A2F4A1F6E174900A5265C /* baseballman3.png */; };
+		428A2F6D1F6E174900A5265C /* baseBGM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 428A2F4B1F6E174900A5265C /* baseBGM.mp3 */; };
+		428A2F6E1F6E174900A5265C /* haikei_ground.png in Resources */ = {isa = PBXBuildFile; fileRef = 428A2F4C1F6E174900A5265C /* haikei_ground.png */; };
+		428A2F6F1F6E174900A5265C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 428A2F4D1F6E174900A5265C /* Images.xcassets */; };
+		428A2F701F6E174900A5265C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 428A2F4E1F6E174900A5265C /* Info.plist */; };
+		428A2F711F6E174900A5265C /* navi02_img02.png in Resources */ = {isa = PBXBuildFile; fileRef = 428A2F4F1F6E174900A5265C /* navi02_img02.png */; };
+		428A2F721F6E174900A5265C /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428A2F501F6E174900A5265C /* PlayerViewController.swift */; };
+		428A2F731F6E174900A5265C /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428A2F511F6E174900A5265C /* ResultViewController.swift */; };
+		428A2F741F6E174900A5265C /* sbt-b96_l.png in Resources */ = {isa = PBXBuildFile; fileRef = 428A2F521F6E174900A5265C /* sbt-b96_l.png */; };
+		428A2F751F6E174900A5265C /* sc01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 428A2F531F6E174900A5265C /* sc01.mp3 */; };
+		428A2F761F6E174900A5265C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428A2F541F6E174900A5265C /* ViewController.swift */; };
+		428A2F771F6E174900A5265C /* バッターイメージ.png in Resources */ = {isa = PBXBuildFile; fileRef = 428A2F551F6E174900A5265C /* バッターイメージ.png */; };
+		428A2F781F6E174900A5265C /* バッターイメージ3.png in Resources */ = {isa = PBXBuildFile; fileRef = 428A2F561F6E174900A5265C /* バッターイメージ3.png */; };
+		428A2F791F6E174900A5265C /* バッターイメージ4.png in Resources */ = {isa = PBXBuildFile; fileRef = 428A2F571F6E174900A5265C /* バッターイメージ4.png */; };
+		428A2F7A1F6E174900A5265C /* バッターイメージ5.png in Resources */ = {isa = PBXBuildFile; fileRef = 428A2F581F6E174900A5265C /* バッターイメージ5.png */; };
+		428A2F7B1F6E174900A5265C /* バッターイメージ２.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 428A2F591F6E174900A5265C /* バッターイメージ２.jpg */; };
+		428A2F7C1F6E174900A5265C /* バッターイメージ２.png in Resources */ = {isa = PBXBuildFile; fileRef = 428A2F5A1F6E174900A5265C /* バッターイメージ２.png */; };
+		428A2F7D1F6E174900A5265C /* 得点板.png in Resources */ = {isa = PBXBuildFile; fileRef = 428A2F5B1F6E174900A5265C /* 得点板.png */; };
+		428A2F7E1F6E174900A5265C /* 野球場イメージ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 428A2F5C1F6E174900A5265C /* 野球場イメージ.jpg */; };
+		428A2F7F1F6E174900A5265C /* 野球場イメージ.png in Resources */ = {isa = PBXBuildFile; fileRef = 428A2F5D1F6E174900A5265C /* 野球場イメージ.png */; };
+		428A2FB31F6E186300A5265C /* 1335779391.png in Resources */ = {isa = PBXBuildFile; fileRef = 428A2F871F6E186300A5265C /* 1335779391.png */; };
+		428A2FB41F6E186300A5265C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428A2F881F6E186300A5265C /* AppDelegate.swift */; };
+		428A2FB51F6E186300A5265C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 428A2F891F6E186300A5265C /* LaunchScreen.xib */; };
+		428A2FB61F6E186300A5265C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 428A2F8B1F6E186300A5265C /* Main.storyboard */; };
+		428A2FB71F6E186300A5265C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428A2F8F1F6E186300A5265C /* AppDelegate.swift */; };
+		428A2FB81F6E186300A5265C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 428A2F901F6E186300A5265C /* LaunchScreen.xib */; };
+		428A2FB91F6E186300A5265C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 428A2F921F6E186300A5265C /* Main.storyboard */; };
+		428A2FBA1F6E186300A5265C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 428A2F941F6E186300A5265C /* Images.xcassets */; };
+		428A2FBB1F6E186300A5265C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 428A2F951F6E186300A5265C /* Info.plist */; };
+		428A2FBC1F6E186300A5265C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428A2F961F6E186300A5265C /* ViewController.swift */; };
+		428A2FBD1F6E186300A5265C /* _______Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428A2F9B1F6E186300A5265C /* _______Tests.swift */; };
+		428A2FBE1F6E186300A5265C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 428A2F9C1F6E186300A5265C /* Info.plist */; };
+		428A2FBF1F6E186300A5265C /* BASEBALLMAN 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 428A2F9D1F6E186300A5265C /* BASEBALLMAN 2.jpg */; };
+		428A2FC01F6E186300A5265C /* baseballman.png in Resources */ = {isa = PBXBuildFile; fileRef = 428A2F9E1F6E186300A5265C /* baseballman.png */; };
+		428A2FC11F6E186300A5265C /* baseballman3.png in Resources */ = {isa = PBXBuildFile; fileRef = 428A2F9F1F6E186300A5265C /* baseballman3.png */; };
+		428A2FC21F6E186300A5265C /* baseBGM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 428A2FA01F6E186300A5265C /* baseBGM.mp3 */; };
+		428A2FC31F6E186300A5265C /* haikei_ground.png in Resources */ = {isa = PBXBuildFile; fileRef = 428A2FA11F6E186300A5265C /* haikei_ground.png */; };
+		428A2FC41F6E186300A5265C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 428A2FA21F6E186300A5265C /* Images.xcassets */; };
+		428A2FC51F6E186300A5265C /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 428A2FA31F6E186300A5265C /* Info.plist */; };
+		428A2FC61F6E186300A5265C /* navi02_img02.png in Resources */ = {isa = PBXBuildFile; fileRef = 428A2FA41F6E186300A5265C /* navi02_img02.png */; };
+		428A2FC71F6E186300A5265C /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428A2FA51F6E186300A5265C /* PlayerViewController.swift */; };
+		428A2FC81F6E186300A5265C /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428A2FA61F6E186300A5265C /* ResultViewController.swift */; };
+		428A2FC91F6E186300A5265C /* sbt-b96_l.png in Resources */ = {isa = PBXBuildFile; fileRef = 428A2FA71F6E186300A5265C /* sbt-b96_l.png */; };
+		428A2FCA1F6E186300A5265C /* sc01.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 428A2FA81F6E186300A5265C /* sc01.mp3 */; };
+		428A2FCB1F6E186300A5265C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428A2FA91F6E186300A5265C /* ViewController.swift */; };
+		428A2FCC1F6E186300A5265C /* バッターイメージ.png in Resources */ = {isa = PBXBuildFile; fileRef = 428A2FAA1F6E186300A5265C /* バッターイメージ.png */; };
+		428A2FCD1F6E186300A5265C /* バッターイメージ3.png in Resources */ = {isa = PBXBuildFile; fileRef = 428A2FAB1F6E186300A5265C /* バッターイメージ3.png */; };
+		428A2FCE1F6E186300A5265C /* バッターイメージ4.png in Resources */ = {isa = PBXBuildFile; fileRef = 428A2FAC1F6E186300A5265C /* バッターイメージ4.png */; };
+		428A2FCF1F6E186300A5265C /* バッターイメージ5.png in Resources */ = {isa = PBXBuildFile; fileRef = 428A2FAD1F6E186300A5265C /* バッターイメージ5.png */; };
+		428A2FD01F6E186300A5265C /* バッターイメージ２.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 428A2FAE1F6E186300A5265C /* バッターイメージ２.jpg */; };
+		428A2FD11F6E186300A5265C /* バッターイメージ２.png in Resources */ = {isa = PBXBuildFile; fileRef = 428A2FAF1F6E186300A5265C /* バッターイメージ２.png */; };
+		428A2FD21F6E186300A5265C /* 得点板.png in Resources */ = {isa = PBXBuildFile; fileRef = 428A2FB01F6E186300A5265C /* 得点板.png */; };
+		428A2FD31F6E186300A5265C /* 野球場イメージ.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 428A2FB11F6E186300A5265C /* 野球場イメージ.jpg */; };
+		428A2FD41F6E186300A5265C /* 野球場イメージ.png in Resources */ = {isa = PBXBuildFile; fileRef = 428A2FB21F6E186300A5265C /* 野球場イメージ.png */; };
 		429DD61A1D31F98C003E7DD4 /* バッターイメージ.png in Resources */ = {isa = PBXBuildFile; fileRef = 429DD6191D31F98C003E7DD4 /* バッターイメージ.png */; };
 		429DD61C1D3209A6003E7DD4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429DD61B1D3209A6003E7DD4 /* ViewController.swift */; };
 		429DD6201D321C18003E7DD4 /* バッターイメージ２.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 429DD61F1D321C18003E7DD4 /* バッターイメージ２.jpg */; };
@@ -44,6 +155,62 @@
 			proxyType = 1;
 			remoteGlobalIDString = 425E019A1BAE70E900FA168D;
 			remoteInfo = MusicGame;
+		};
+		428A2EC11F6E15F700A5265C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 428A2EBC1F6E15F600A5265C /* ホームラン競争.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 42AFCA671BE5AD0B003D8C93;
+			remoteInfo = "ホームラン競争";
+		};
+		428A2EC31F6E15F700A5265C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 428A2EBC1F6E15F600A5265C /* ホームラン競争.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 42AFCA7C1BE5AD0B003D8C93;
+			remoteInfo = "ホームラン競争Tests";
+		};
+		428A2F2D1F6E172700A5265C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 428A2EDC1F6E172700A5265C /* ホームラン競争.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 42AFCA671BE5AD0B003D8C93;
+			remoteInfo = "ホームラン競争";
+		};
+		428A2F2F1F6E172700A5265C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 428A2EDC1F6E172700A5265C /* ホームラン競争.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 42AFCA7C1BE5AD0B003D8C93;
+			remoteInfo = "ホームラン競争Tests";
+		};
+		428A2F821F6E174900A5265C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 428A2F421F6E174900A5265C /* ホームラン競争.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 42AFCA671BE5AD0B003D8C93;
+			remoteInfo = "ホームラン競争";
+		};
+		428A2F841F6E174900A5265C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 428A2F421F6E174900A5265C /* ホームラン競争.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 42AFCA7C1BE5AD0B003D8C93;
+			remoteInfo = "ホームラン競争Tests";
+		};
+		428A2FD71F6E186300A5265C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 428A2F971F6E186300A5265C /* ホームラン競争.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 42AFCA671BE5AD0B003D8C93;
+			remoteInfo = "ホームラン競争";
+		};
+		428A2FD91F6E186300A5265C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 428A2F971F6E186300A5265C /* ホームラン競争.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 42AFCA7C1BE5AD0B003D8C93;
+			remoteInfo = "ホームラン競争Tests";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -68,6 +235,122 @@
 		426B34751D97BB6F002BF2FD /* 野球場イメージ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "野球場イメージ.jpg"; sourceTree = "<group>"; };
 		426B34771D97BBE0002BF2FD /* 野球場イメージ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "野球場イメージ.png"; sourceTree = "<group>"; };
 		42880ED61CE85B99000BB46A /* 得点板.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "得点板.png"; sourceTree = "<group>"; };
+		428A2EBC1F6E15F600A5265C /* ホームラン競争.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "ホームラン競争.xcodeproj"; path = "MusicGame/Base.lproj/ホームラン競争/ホームラン競争.xcodeproj"; sourceTree = "<group>"; };
+		428A2EC51F6E16AE00A5265C /* f22d8ea7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = f22d8ea7.jpg; sourceTree = "<group>"; };
+		428A2EC81F6E172700A5265C /* 1335779391.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1335779391.jpg; sourceTree = "<group>"; };
+		428A2EC91F6E172700A5265C /* baseballman4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseballman4.png; sourceTree = "<group>"; };
+		428A2ECA1F6E172700A5265C /* f22d8ea7.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = f22d8ea7.jpg; sourceTree = "<group>"; };
+		428A2ECC1F6E172700A5265C /* 1335779391.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1335779391.png; sourceTree = "<group>"; };
+		428A2ECD1F6E172700A5265C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		428A2ECF1F6E172700A5265C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		428A2ED11F6E172700A5265C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		428A2ED41F6E172700A5265C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		428A2ED61F6E172700A5265C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		428A2ED81F6E172700A5265C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		428A2ED91F6E172700A5265C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		428A2EDA1F6E172700A5265C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		428A2EDB1F6E172700A5265C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		428A2EDC1F6E172700A5265C /* ホームラン競争.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "ホームラン競争.xcodeproj"; sourceTree = "<group>"; };
+		428A2EE01F6E172700A5265C /* _______Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "_______Tests.swift"; sourceTree = "<group>"; };
+		428A2EE11F6E172700A5265C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		428A2EE21F6E172700A5265C /* BASEBALLMAN 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "BASEBALLMAN 2.jpg"; sourceTree = "<group>"; };
+		428A2EE31F6E172700A5265C /* baseballman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseballman.png; sourceTree = "<group>"; };
+		428A2EE41F6E172700A5265C /* baseballman3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseballman3.png; sourceTree = "<group>"; };
+		428A2EE51F6E172700A5265C /* baseBGM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = baseBGM.mp3; sourceTree = "<group>"; };
+		428A2EE61F6E172700A5265C /* haikei_ground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = haikei_ground.png; sourceTree = "<group>"; };
+		428A2EE71F6E172700A5265C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		428A2EE81F6E172700A5265C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		428A2EE91F6E172700A5265C /* navi02_img02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navi02_img02.png; sourceTree = "<group>"; };
+		428A2EEA1F6E172700A5265C /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		428A2EEB1F6E172700A5265C /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		428A2EEC1F6E172700A5265C /* sbt-b96_l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sbt-b96_l.png"; sourceTree = "<group>"; };
+		428A2EED1F6E172700A5265C /* sc01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sc01.mp3; sourceTree = "<group>"; };
+		428A2EEE1F6E172700A5265C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		428A2EEF1F6E172700A5265C /* バッターイメージ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "バッターイメージ.png"; sourceTree = "<group>"; };
+		428A2EF01F6E172700A5265C /* バッターイメージ3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "バッターイメージ3.png"; sourceTree = "<group>"; };
+		428A2EF11F6E172700A5265C /* バッターイメージ4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "バッターイメージ4.png"; sourceTree = "<group>"; };
+		428A2EF21F6E172700A5265C /* バッターイメージ5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "バッターイメージ5.png"; sourceTree = "<group>"; };
+		428A2EF31F6E172700A5265C /* バッターイメージ２.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "バッターイメージ２.jpg"; sourceTree = "<group>"; };
+		428A2EF41F6E172700A5265C /* バッターイメージ２.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "バッターイメージ２.png"; sourceTree = "<group>"; };
+		428A2EF51F6E172700A5265C /* 得点板.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "得点板.png"; sourceTree = "<group>"; };
+		428A2EF61F6E172700A5265C /* 野球場イメージ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "野球場イメージ.jpg"; sourceTree = "<group>"; };
+		428A2EF71F6E172700A5265C /* 野球場イメージ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "野球場イメージ.png"; sourceTree = "<group>"; };
+		428A2EF81F6E172700A5265C /* MusicGame.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = MusicGame.xcodeproj; sourceTree = "<group>"; };
+		428A2EFC1F6E172700A5265C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		428A2EFD1F6E172700A5265C /* MusicGameTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicGameTests.swift; sourceTree = "<group>"; };
+		428A2EFE1F6E172700A5265C /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		428A2EFF1F6E172700A5265C /* sbt-b96_l.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "sbt-b96_l.jpg"; sourceTree = "<group>"; };
+		428A2F001F6E172700A5265C /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		428A2F321F6E174900A5265C /* 1335779391.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1335779391.png; sourceTree = "<group>"; };
+		428A2F331F6E174900A5265C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		428A2F351F6E174900A5265C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		428A2F371F6E174900A5265C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		428A2F3A1F6E174900A5265C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		428A2F3C1F6E174900A5265C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		428A2F3E1F6E174900A5265C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		428A2F3F1F6E174900A5265C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		428A2F401F6E174900A5265C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		428A2F411F6E174900A5265C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		428A2F421F6E174900A5265C /* ホームラン競争.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "ホームラン競争.xcodeproj"; sourceTree = "<group>"; };
+		428A2F461F6E174900A5265C /* _______Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "_______Tests.swift"; sourceTree = "<group>"; };
+		428A2F471F6E174900A5265C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		428A2F481F6E174900A5265C /* BASEBALLMAN 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "BASEBALLMAN 2.jpg"; sourceTree = "<group>"; };
+		428A2F491F6E174900A5265C /* baseballman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseballman.png; sourceTree = "<group>"; };
+		428A2F4A1F6E174900A5265C /* baseballman3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseballman3.png; sourceTree = "<group>"; };
+		428A2F4B1F6E174900A5265C /* baseBGM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = baseBGM.mp3; sourceTree = "<group>"; };
+		428A2F4C1F6E174900A5265C /* haikei_ground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = haikei_ground.png; sourceTree = "<group>"; };
+		428A2F4D1F6E174900A5265C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		428A2F4E1F6E174900A5265C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		428A2F4F1F6E174900A5265C /* navi02_img02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navi02_img02.png; sourceTree = "<group>"; };
+		428A2F501F6E174900A5265C /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		428A2F511F6E174900A5265C /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		428A2F521F6E174900A5265C /* sbt-b96_l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sbt-b96_l.png"; sourceTree = "<group>"; };
+		428A2F531F6E174900A5265C /* sc01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sc01.mp3; sourceTree = "<group>"; };
+		428A2F541F6E174900A5265C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		428A2F551F6E174900A5265C /* バッターイメージ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "バッターイメージ.png"; sourceTree = "<group>"; };
+		428A2F561F6E174900A5265C /* バッターイメージ3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "バッターイメージ3.png"; sourceTree = "<group>"; };
+		428A2F571F6E174900A5265C /* バッターイメージ4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "バッターイメージ4.png"; sourceTree = "<group>"; };
+		428A2F581F6E174900A5265C /* バッターイメージ5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "バッターイメージ5.png"; sourceTree = "<group>"; };
+		428A2F591F6E174900A5265C /* バッターイメージ２.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "バッターイメージ２.jpg"; sourceTree = "<group>"; };
+		428A2F5A1F6E174900A5265C /* バッターイメージ２.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "バッターイメージ２.png"; sourceTree = "<group>"; };
+		428A2F5B1F6E174900A5265C /* 得点板.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "得点板.png"; sourceTree = "<group>"; };
+		428A2F5C1F6E174900A5265C /* 野球場イメージ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "野球場イメージ.jpg"; sourceTree = "<group>"; };
+		428A2F5D1F6E174900A5265C /* 野球場イメージ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "野球場イメージ.png"; sourceTree = "<group>"; };
+		428A2F871F6E186300A5265C /* 1335779391.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1335779391.png; sourceTree = "<group>"; };
+		428A2F881F6E186300A5265C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		428A2F8A1F6E186300A5265C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		428A2F8C1F6E186300A5265C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		428A2F8F1F6E186300A5265C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		428A2F911F6E186300A5265C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		428A2F931F6E186300A5265C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		428A2F941F6E186300A5265C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		428A2F951F6E186300A5265C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		428A2F961F6E186300A5265C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		428A2F971F6E186300A5265C /* ホームラン競争.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "ホームラン競争.xcodeproj"; sourceTree = "<group>"; };
+		428A2F9B1F6E186300A5265C /* _______Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "_______Tests.swift"; sourceTree = "<group>"; };
+		428A2F9C1F6E186300A5265C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		428A2F9D1F6E186300A5265C /* BASEBALLMAN 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "BASEBALLMAN 2.jpg"; sourceTree = "<group>"; };
+		428A2F9E1F6E186300A5265C /* baseballman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseballman.png; sourceTree = "<group>"; };
+		428A2F9F1F6E186300A5265C /* baseballman3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = baseballman3.png; sourceTree = "<group>"; };
+		428A2FA01F6E186300A5265C /* baseBGM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = baseBGM.mp3; sourceTree = "<group>"; };
+		428A2FA11F6E186300A5265C /* haikei_ground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = haikei_ground.png; sourceTree = "<group>"; };
+		428A2FA21F6E186300A5265C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		428A2FA31F6E186300A5265C /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		428A2FA41F6E186300A5265C /* navi02_img02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = navi02_img02.png; sourceTree = "<group>"; };
+		428A2FA51F6E186300A5265C /* PlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		428A2FA61F6E186300A5265C /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		428A2FA71F6E186300A5265C /* sbt-b96_l.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sbt-b96_l.png"; sourceTree = "<group>"; };
+		428A2FA81F6E186300A5265C /* sc01.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sc01.mp3; sourceTree = "<group>"; };
+		428A2FA91F6E186300A5265C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		428A2FAA1F6E186300A5265C /* バッターイメージ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "バッターイメージ.png"; sourceTree = "<group>"; };
+		428A2FAB1F6E186300A5265C /* バッターイメージ3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "バッターイメージ3.png"; sourceTree = "<group>"; };
+		428A2FAC1F6E186300A5265C /* バッターイメージ4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "バッターイメージ4.png"; sourceTree = "<group>"; };
+		428A2FAD1F6E186300A5265C /* バッターイメージ5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "バッターイメージ5.png"; sourceTree = "<group>"; };
+		428A2FAE1F6E186300A5265C /* バッターイメージ２.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "バッターイメージ２.jpg"; sourceTree = "<group>"; };
+		428A2FAF1F6E186300A5265C /* バッターイメージ２.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "バッターイメージ２.png"; sourceTree = "<group>"; };
+		428A2FB01F6E186300A5265C /* 得点板.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "得点板.png"; sourceTree = "<group>"; };
+		428A2FB11F6E186300A5265C /* 野球場イメージ.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "野球場イメージ.jpg"; sourceTree = "<group>"; };
+		428A2FB21F6E186300A5265C /* 野球場イメージ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "野球場イメージ.png"; sourceTree = "<group>"; };
 		429DD6191D31F98C003E7DD4 /* バッターイメージ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "バッターイメージ.png"; sourceTree = "<group>"; };
 		429DD61B1D3209A6003E7DD4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		429DD61F1D321C18003E7DD4 /* バッターイメージ２.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "バッターイメージ２.jpg"; sourceTree = "<group>"; };
@@ -103,6 +386,10 @@
 		425E01921BAE70E900FA168D = {
 			isa = PBXGroup;
 			children = (
+				428A2F311F6E174900A5265C /* MusicGame */,
+				428A2EC71F6E172700A5265C /* MusicGame */,
+				428A2EC51F6E16AE00A5265C /* f22d8ea7.jpg */,
+				428A2EBC1F6E15F600A5265C /* ホームラン競争.xcodeproj */,
 				425E019D1BAE70E900FA168D /* MusicGame */,
 				425E01B31BAE70E900FA168D /* MusicGameTests */,
 				425E019C1BAE70E900FA168D /* Products */,
@@ -177,10 +464,278 @@
 				424861301BC0E88C00420E2D /* sbt-b96_l.png */,
 				425E01C01BAE8C7200FA168D /* sc01.mp3 */,
 				42BB0B7D1CE82529006151EA /* haikei_ground.png */,
+				428A2F861F6E186300A5265C /* MusicGame */,
 				42BB0B791C705A49006151EA /* baseballman4.png */,
 				42520E7E1C0AD7750070A20A /* baseballman.png */,
 			);
 			name = images;
+			sourceTree = "<group>";
+		};
+		428A2EBD1F6E15F600A5265C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				428A2EC21F6E15F700A5265C /* ホームラン競争.app */,
+				428A2EC41F6E15F700A5265C /* ホームラン競争Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		428A2EC71F6E172700A5265C /* MusicGame */ = {
+			isa = PBXGroup;
+			children = (
+				428A2EC81F6E172700A5265C /* 1335779391.jpg */,
+				428A2EC91F6E172700A5265C /* baseballman4.png */,
+				428A2ECA1F6E172700A5265C /* f22d8ea7.jpg */,
+				428A2ECB1F6E172700A5265C /* MusicGame */,
+				428A2EF81F6E172700A5265C /* MusicGame.xcodeproj */,
+				428A2EFB1F6E172700A5265C /* MusicGameTests */,
+				428A2EFE1F6E172700A5265C /* README.md */,
+				428A2EFF1F6E172700A5265C /* sbt-b96_l.jpg */,
+				428A2F001F6E172700A5265C /* ViewController2.swift */,
+			);
+			name = MusicGame;
+			sourceTree = "<group>";
+		};
+		428A2ECB1F6E172700A5265C /* MusicGame */ = {
+			isa = PBXGroup;
+			children = (
+				428A2ECC1F6E172700A5265C /* 1335779391.png */,
+				428A2ECD1F6E172700A5265C /* AppDelegate.swift */,
+				428A2ECE1F6E172700A5265C /* LaunchScreen.xib */,
+				428A2ED01F6E172700A5265C /* Main.storyboard */,
+				428A2ED21F6E172700A5265C /* ホームラン競争 */,
+				428A2EE21F6E172700A5265C /* BASEBALLMAN 2.jpg */,
+				428A2EE31F6E172700A5265C /* baseballman.png */,
+				428A2EE41F6E172700A5265C /* baseballman3.png */,
+				428A2EE51F6E172700A5265C /* baseBGM.mp3 */,
+				428A2EE61F6E172700A5265C /* haikei_ground.png */,
+				428A2EE71F6E172700A5265C /* Images.xcassets */,
+				428A2EE81F6E172700A5265C /* Info.plist */,
+				428A2EE91F6E172700A5265C /* navi02_img02.png */,
+				428A2EEA1F6E172700A5265C /* PlayerViewController.swift */,
+				428A2EEB1F6E172700A5265C /* ResultViewController.swift */,
+				428A2EEC1F6E172700A5265C /* sbt-b96_l.png */,
+				428A2EED1F6E172700A5265C /* sc01.mp3 */,
+				428A2EEE1F6E172700A5265C /* ViewController.swift */,
+				428A2EEF1F6E172700A5265C /* バッターイメージ.png */,
+				428A2EF01F6E172700A5265C /* バッターイメージ3.png */,
+				428A2EF11F6E172700A5265C /* バッターイメージ4.png */,
+				428A2EF21F6E172700A5265C /* バッターイメージ5.png */,
+				428A2EF31F6E172700A5265C /* バッターイメージ２.jpg */,
+				428A2EF41F6E172700A5265C /* バッターイメージ２.png */,
+				428A2EF51F6E172700A5265C /* 得点板.png */,
+				428A2EF61F6E172700A5265C /* 野球場イメージ.jpg */,
+				428A2EF71F6E172700A5265C /* 野球場イメージ.png */,
+			);
+			path = MusicGame;
+			sourceTree = "<group>";
+		};
+		428A2ED21F6E172700A5265C /* ホームラン競争 */ = {
+			isa = PBXGroup;
+			children = (
+				428A2ED31F6E172700A5265C /* ホームラン競争 */,
+				428A2EDC1F6E172700A5265C /* ホームラン競争.xcodeproj */,
+				428A2EDF1F6E172700A5265C /* ホームラン競争Tests */,
+			);
+			name = "ホームラン競争";
+			path = "Base.lproj/ホームラン競争";
+			sourceTree = "<group>";
+		};
+		428A2ED31F6E172700A5265C /* ホームラン競争 */ = {
+			isa = PBXGroup;
+			children = (
+				428A2ED41F6E172700A5265C /* AppDelegate.swift */,
+				428A2ED51F6E172700A5265C /* LaunchScreen.xib */,
+				428A2ED71F6E172700A5265C /* Main.storyboard */,
+				428A2ED91F6E172700A5265C /* Images.xcassets */,
+				428A2EDA1F6E172700A5265C /* Info.plist */,
+				428A2EDB1F6E172700A5265C /* ViewController.swift */,
+			);
+			path = "ホームラン競争";
+			sourceTree = "<group>";
+		};
+		428A2EDD1F6E172700A5265C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				428A2F2E1F6E172700A5265C /* ホームラン競争.app */,
+				428A2F301F6E172700A5265C /* ホームラン競争Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		428A2EDF1F6E172700A5265C /* ホームラン競争Tests */ = {
+			isa = PBXGroup;
+			children = (
+				428A2EE01F6E172700A5265C /* _______Tests.swift */,
+				428A2EE11F6E172700A5265C /* Info.plist */,
+			);
+			path = "ホームラン競争Tests";
+			sourceTree = "<group>";
+		};
+		428A2EF91F6E172700A5265C /* Products */ = {
+			isa = PBXGroup;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		428A2EFB1F6E172700A5265C /* MusicGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				428A2EFC1F6E172700A5265C /* Info.plist */,
+				428A2EFD1F6E172700A5265C /* MusicGameTests.swift */,
+			);
+			path = MusicGameTests;
+			sourceTree = "<group>";
+		};
+		428A2F311F6E174900A5265C /* MusicGame */ = {
+			isa = PBXGroup;
+			children = (
+				428A2F321F6E174900A5265C /* 1335779391.png */,
+				428A2F331F6E174900A5265C /* AppDelegate.swift */,
+				428A2F341F6E174900A5265C /* LaunchScreen.xib */,
+				428A2F361F6E174900A5265C /* Main.storyboard */,
+				428A2F381F6E174900A5265C /* ホームラン競争 */,
+				428A2F481F6E174900A5265C /* BASEBALLMAN 2.jpg */,
+				428A2F491F6E174900A5265C /* baseballman.png */,
+				428A2F4A1F6E174900A5265C /* baseballman3.png */,
+				428A2F4B1F6E174900A5265C /* baseBGM.mp3 */,
+				428A2F4C1F6E174900A5265C /* haikei_ground.png */,
+				428A2F4D1F6E174900A5265C /* Images.xcassets */,
+				428A2F4E1F6E174900A5265C /* Info.plist */,
+				428A2F4F1F6E174900A5265C /* navi02_img02.png */,
+				428A2F501F6E174900A5265C /* PlayerViewController.swift */,
+				428A2F511F6E174900A5265C /* ResultViewController.swift */,
+				428A2F521F6E174900A5265C /* sbt-b96_l.png */,
+				428A2F531F6E174900A5265C /* sc01.mp3 */,
+				428A2F541F6E174900A5265C /* ViewController.swift */,
+				428A2F551F6E174900A5265C /* バッターイメージ.png */,
+				428A2F561F6E174900A5265C /* バッターイメージ3.png */,
+				428A2F571F6E174900A5265C /* バッターイメージ4.png */,
+				428A2F581F6E174900A5265C /* バッターイメージ5.png */,
+				428A2F591F6E174900A5265C /* バッターイメージ２.jpg */,
+				428A2F5A1F6E174900A5265C /* バッターイメージ２.png */,
+				428A2F5B1F6E174900A5265C /* 得点板.png */,
+				428A2F5C1F6E174900A5265C /* 野球場イメージ.jpg */,
+				428A2F5D1F6E174900A5265C /* 野球場イメージ.png */,
+			);
+			path = MusicGame;
+			sourceTree = "<group>";
+		};
+		428A2F381F6E174900A5265C /* ホームラン競争 */ = {
+			isa = PBXGroup;
+			children = (
+				428A2F391F6E174900A5265C /* ホームラン競争 */,
+				428A2F421F6E174900A5265C /* ホームラン競争.xcodeproj */,
+				428A2F451F6E174900A5265C /* ホームラン競争Tests */,
+			);
+			name = "ホームラン競争";
+			path = "Base.lproj/ホームラン競争";
+			sourceTree = "<group>";
+		};
+		428A2F391F6E174900A5265C /* ホームラン競争 */ = {
+			isa = PBXGroup;
+			children = (
+				428A2F3A1F6E174900A5265C /* AppDelegate.swift */,
+				428A2F3B1F6E174900A5265C /* LaunchScreen.xib */,
+				428A2F3D1F6E174900A5265C /* Main.storyboard */,
+				428A2F3F1F6E174900A5265C /* Images.xcassets */,
+				428A2F401F6E174900A5265C /* Info.plist */,
+				428A2F411F6E174900A5265C /* ViewController.swift */,
+			);
+			path = "ホームラン競争";
+			sourceTree = "<group>";
+		};
+		428A2F431F6E174900A5265C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				428A2F831F6E174900A5265C /* ホームラン競争.app */,
+				428A2F851F6E174900A5265C /* ホームラン競争Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		428A2F451F6E174900A5265C /* ホームラン競争Tests */ = {
+			isa = PBXGroup;
+			children = (
+				428A2F461F6E174900A5265C /* _______Tests.swift */,
+				428A2F471F6E174900A5265C /* Info.plist */,
+			);
+			path = "ホームラン競争Tests";
+			sourceTree = "<group>";
+		};
+		428A2F861F6E186300A5265C /* MusicGame */ = {
+			isa = PBXGroup;
+			children = (
+				428A2F871F6E186300A5265C /* 1335779391.png */,
+				428A2F881F6E186300A5265C /* AppDelegate.swift */,
+				428A2F891F6E186300A5265C /* LaunchScreen.xib */,
+				428A2F8B1F6E186300A5265C /* Main.storyboard */,
+				428A2F8D1F6E186300A5265C /* ホームラン競争 */,
+				428A2F9D1F6E186300A5265C /* BASEBALLMAN 2.jpg */,
+				428A2F9E1F6E186300A5265C /* baseballman.png */,
+				428A2F9F1F6E186300A5265C /* baseballman3.png */,
+				428A2FA01F6E186300A5265C /* baseBGM.mp3 */,
+				428A2FA11F6E186300A5265C /* haikei_ground.png */,
+				428A2FA21F6E186300A5265C /* Images.xcassets */,
+				428A2FA31F6E186300A5265C /* Info.plist */,
+				428A2FA41F6E186300A5265C /* navi02_img02.png */,
+				428A2FA51F6E186300A5265C /* PlayerViewController.swift */,
+				428A2FA61F6E186300A5265C /* ResultViewController.swift */,
+				428A2FA71F6E186300A5265C /* sbt-b96_l.png */,
+				428A2FA81F6E186300A5265C /* sc01.mp3 */,
+				428A2FA91F6E186300A5265C /* ViewController.swift */,
+				428A2FAA1F6E186300A5265C /* バッターイメージ.png */,
+				428A2FAB1F6E186300A5265C /* バッターイメージ3.png */,
+				428A2FAC1F6E186300A5265C /* バッターイメージ4.png */,
+				428A2FAD1F6E186300A5265C /* バッターイメージ5.png */,
+				428A2FAE1F6E186300A5265C /* バッターイメージ２.jpg */,
+				428A2FAF1F6E186300A5265C /* バッターイメージ２.png */,
+				428A2FB01F6E186300A5265C /* 得点板.png */,
+				428A2FB11F6E186300A5265C /* 野球場イメージ.jpg */,
+				428A2FB21F6E186300A5265C /* 野球場イメージ.png */,
+			);
+			name = MusicGame;
+			sourceTree = "<group>";
+		};
+		428A2F8D1F6E186300A5265C /* ホームラン競争 */ = {
+			isa = PBXGroup;
+			children = (
+				428A2F8E1F6E186300A5265C /* ホームラン競争 */,
+				428A2F971F6E186300A5265C /* ホームラン競争.xcodeproj */,
+				428A2F9A1F6E186300A5265C /* ホームラン競争Tests */,
+			);
+			name = "ホームラン競争";
+			path = "Base.lproj/ホームラン競争";
+			sourceTree = "<group>";
+		};
+		428A2F8E1F6E186300A5265C /* ホームラン競争 */ = {
+			isa = PBXGroup;
+			children = (
+				428A2F8F1F6E186300A5265C /* AppDelegate.swift */,
+				428A2F901F6E186300A5265C /* LaunchScreen.xib */,
+				428A2F921F6E186300A5265C /* Main.storyboard */,
+				428A2F941F6E186300A5265C /* Images.xcassets */,
+				428A2F951F6E186300A5265C /* Info.plist */,
+				428A2F961F6E186300A5265C /* ViewController.swift */,
+			);
+			path = "ホームラン競争";
+			sourceTree = "<group>";
+		};
+		428A2F981F6E186300A5265C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				428A2FD81F6E186300A5265C /* ホームラン競争.app */,
+				428A2FDA1F6E186300A5265C /* ホームラン競争Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		428A2F9A1F6E186300A5265C /* ホームラン競争Tests */ = {
+			isa = PBXGroup;
+			children = (
+				428A2F9B1F6E186300A5265C /* _______Tests.swift */,
+				428A2F9C1F6E186300A5265C /* Info.plist */,
+			);
+			path = "ホームラン競争Tests";
 			sourceTree = "<group>";
 		};
 		429DD6211D3223EB003E7DD4 /* Views */ = {
@@ -270,6 +825,28 @@
 			mainGroup = 425E01921BAE70E900FA168D;
 			productRefGroup = 425E019C1BAE70E900FA168D /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 428A2EF91F6E172700A5265C /* Products */;
+					ProjectRef = 428A2EF81F6E172700A5265C /* MusicGame.xcodeproj */;
+				},
+				{
+					ProductGroup = 428A2F431F6E174900A5265C /* Products */;
+					ProjectRef = 428A2F421F6E174900A5265C /* ホームラン競争.xcodeproj */;
+				},
+				{
+					ProductGroup = 428A2F981F6E186300A5265C /* Products */;
+					ProjectRef = 428A2F971F6E186300A5265C /* ホームラン競争.xcodeproj */;
+				},
+				{
+					ProductGroup = 428A2EDD1F6E172700A5265C /* Products */;
+					ProjectRef = 428A2EDC1F6E172700A5265C /* ホームラン競争.xcodeproj */;
+				},
+				{
+					ProductGroup = 428A2EBD1F6E15F600A5265C /* Products */;
+					ProjectRef = 428A2EBC1F6E15F600A5265C /* ホームラン競争.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				425E019A1BAE70E900FA168D /* MusicGame */,
@@ -278,33 +855,179 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		428A2EC21F6E15F700A5265C /* ホームラン競争.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "ホームラン競争.app";
+			remoteRef = 428A2EC11F6E15F700A5265C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		428A2EC41F6E15F700A5265C /* ホームラン競争Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ホームラン競争Tests.xctest";
+			remoteRef = 428A2EC31F6E15F700A5265C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		428A2F2E1F6E172700A5265C /* ホームラン競争.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "ホームラン競争.app";
+			remoteRef = 428A2F2D1F6E172700A5265C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		428A2F301F6E172700A5265C /* ホームラン競争Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ホームラン競争Tests.xctest";
+			remoteRef = 428A2F2F1F6E172700A5265C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		428A2F831F6E174900A5265C /* ホームラン競争.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "ホームラン競争.app";
+			remoteRef = 428A2F821F6E174900A5265C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		428A2F851F6E174900A5265C /* ホームラン競争Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ホームラン競争Tests.xctest";
+			remoteRef = 428A2F841F6E174900A5265C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		428A2FD81F6E186300A5265C /* ホームラン競争.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = "ホームラン競争.app";
+			remoteRef = 428A2FD71F6E186300A5265C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		428A2FDA1F6E186300A5265C /* ホームラン競争Tests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "ホームラン競争Tests.xctest";
+			remoteRef = 428A2FD91F6E186300A5265C /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		425E01991BAE70E900FA168D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				428A2F771F6E174900A5265C /* バッターイメージ.png in Resources */,
+				428A2F031F6E172700A5265C /* f22d8ea7.jpg in Resources */,
+				428A2F6E1F6E174900A5265C /* haikei_ground.png in Resources */,
+				428A2F741F6E174900A5265C /* sbt-b96_l.png in Resources */,
+				428A2F151F6E172700A5265C /* Images.xcassets in Resources */,
+				428A2F141F6E172700A5265C /* haikei_ground.png in Resources */,
+				428A2FB61F6E186300A5265C /* Main.storyboard in Resources */,
+				428A2F0B1F6E172700A5265C /* Images.xcassets in Resources */,
+				428A2F651F6E174900A5265C /* Images.xcassets in Resources */,
+				428A2F251F6E172700A5265C /* 野球場イメージ.png in Resources */,
+				428A2F021F6E172700A5265C /* baseballman4.png in Resources */,
+				428A2F171F6E172700A5265C /* navi02_img02.png in Resources */,
 				425E01A61BAE70E900FA168D /* Main.storyboard in Resources */,
 				42880ED71CE85B99000BB46A /* 得点板.png in Resources */,
+				428A2F751F6E174900A5265C /* sc01.mp3 in Resources */,
 				42BB0B7E1CE82529006151EA /* haikei_ground.png in Resources */,
+				428A2FC11F6E186300A5265C /* baseballman3.png in Resources */,
 				424861311BC0E88C00420E2D /* 1335779391.png in Resources */,
+				428A2FC21F6E186300A5265C /* baseBGM.mp3 in Resources */,
 				42BB0B741C4B83B2006151EA /* BASEBALLMAN 2.jpg in Resources */,
+				428A2F111F6E172700A5265C /* baseballman.png in Resources */,
+				428A2FD31F6E186300A5265C /* 野球場イメージ.jpg in Resources */,
+				428A2F601F6E174900A5265C /* LaunchScreen.xib in Resources */,
+				428A2FCE1F6E186300A5265C /* バッターイメージ4.png in Resources */,
+				428A2F0C1F6E172700A5265C /* Info.plist in Resources */,
+				428A2F1B1F6E172700A5265C /* sc01.mp3 in Resources */,
+				428A2FC51F6E186300A5265C /* Info.plist in Resources */,
+				428A2F7E1F6E174900A5265C /* 野球場イメージ.jpg in Resources */,
+				428A2FCC1F6E186300A5265C /* バッターイメージ.png in Resources */,
+				428A2F631F6E174900A5265C /* LaunchScreen.xib in Resources */,
+				428A2FD21F6E186300A5265C /* 得点板.png in Resources */,
+				428A2FB91F6E186300A5265C /* Main.storyboard in Resources */,
+				428A2FCF1F6E186300A5265C /* バッターイメージ5.png in Resources */,
+				428A2FB81F6E186300A5265C /* LaunchScreen.xib in Resources */,
 				42AFCABB1BE5DCF5003D8C93 /* baseBGM.mp3 in Resources */,
+				428A2F161F6E172700A5265C /* Info.plist in Resources */,
+				428A2FC01F6E186300A5265C /* baseballman.png in Resources */,
+				428A2F691F6E174900A5265C /* Info.plist in Resources */,
+				428A2F5E1F6E174900A5265C /* 1335779391.png in Resources */,
+				428A2FC41F6E186300A5265C /* Images.xcassets in Resources */,
+				428A2F0F1F6E172700A5265C /* Info.plist in Resources */,
+				428A2F6F1F6E174900A5265C /* Images.xcassets in Resources */,
 				426B34761D97BB6F002BF2FD /* 野球場イメージ.jpg in Resources */,
+				428A2F101F6E172700A5265C /* BASEBALLMAN 2.jpg in Resources */,
+				428A2FB31F6E186300A5265C /* 1335779391.png in Resources */,
+				428A2F261F6E172700A5265C /* Info.plist in Resources */,
+				428A2F1F1F6E172700A5265C /* バッターイメージ4.png in Resources */,
 				426B34781D97BBE0002BF2FD /* 野球場イメージ.png in Resources */,
+				428A2FBE1F6E186300A5265C /* Info.plist in Resources */,
+				428A2F091F6E172700A5265C /* LaunchScreen.xib in Resources */,
 				42BB0B781C7052D2006151EA /* baseballman3.png in Resources */,
+				428A2F221F6E172700A5265C /* バッターイメージ２.png in Resources */,
+				428A2FC91F6E186300A5265C /* sbt-b96_l.png in Resources */,
+				428A2F6D1F6E174900A5265C /* baseBGM.mp3 in Resources */,
+				428A2F661F6E174900A5265C /* Info.plist in Resources */,
 				429DD6201D321C18003E7DD4 /* バッターイメージ２.jpg in Resources */,
 				424861321BC0E88C00420E2D /* sbt-b96_l.png in Resources */,
 				42BB0B761C7051BB006151EA /* navi02_img02.png in Resources */,
+				428A2F7D1F6E174900A5265C /* 得点板.png in Resources */,
+				428A2FD41F6E186300A5265C /* 野球場イメージ.png in Resources */,
+				428A2F711F6E174900A5265C /* navi02_img02.png in Resources */,
+				428A2F1A1F6E172700A5265C /* sbt-b96_l.png in Resources */,
+				428A2F6A1F6E174900A5265C /* BASEBALLMAN 2.jpg in Resources */,
+				428A2FBB1F6E186300A5265C /* Info.plist in Resources */,
+				428A2F6B1F6E174900A5265C /* baseballman.png in Resources */,
 				421D34A41D8503E100B6F68F /* バッターイメージ5.png in Resources */,
+				428A2F011F6E172700A5265C /* 1335779391.jpg in Resources */,
+				428A2F6C1F6E174900A5265C /* baseballman3.png in Resources */,
+				428A2F1E1F6E172700A5265C /* バッターイメージ3.png in Resources */,
+				428A2FB51F6E186300A5265C /* LaunchScreen.xib in Resources */,
+				428A2F791F6E174900A5265C /* バッターイメージ4.png in Resources */,
 				421D34A01D85003200B6F68F /* バッターイメージ3.png in Resources */,
+				428A2FC31F6E186300A5265C /* haikei_ground.png in Resources */,
+				428A2F211F6E172700A5265C /* バッターイメージ２.jpg in Resources */,
 				421D34A21D85019300B6F68F /* バッターイメージ4.png in Resources */,
+				428A2F701F6E174900A5265C /* Info.plist in Resources */,
+				428A2FD01F6E186300A5265C /* バッターイメージ２.jpg in Resources */,
 				425E01C11BAE8C7200FA168D /* sc01.mp3 in Resources */,
 				425E01AB1BAE70E900FA168D /* LaunchScreen.xib in Resources */,
+				428A2F781F6E174900A5265C /* バッターイメージ3.png in Resources */,
+				428A2F121F6E172700A5265C /* baseballman3.png in Resources */,
 				429DD61A1D31F98C003E7DD4 /* バッターイメージ.png in Resources */,
 				425E01A81BAE70E900FA168D /* Images.xcassets in Resources */,
+				428A2FC61F6E186300A5265C /* navi02_img02.png in Resources */,
 				42BB0B7A1C705A49006151EA /* baseballman4.png in Resources */,
+				428A2F041F6E172700A5265C /* 1335779391.png in Resources */,
+				428A2F071F6E172700A5265C /* Main.storyboard in Resources */,
+				428A2F061F6E172700A5265C /* LaunchScreen.xib in Resources */,
+				428A2FCA1F6E186300A5265C /* sc01.mp3 in Resources */,
 				42520E7F1C0AD7750070A20A /* baseballman.png in Resources */,
+				428A2F131F6E172700A5265C /* baseBGM.mp3 in Resources */,
+				428A2FBF1F6E186300A5265C /* BASEBALLMAN 2.jpg in Resources */,
+				428A2F291F6E172700A5265C /* sbt-b96_l.jpg in Resources */,
+				428A2F7A1F6E174900A5265C /* バッターイメージ5.png in Resources */,
+				428A2F641F6E174900A5265C /* Main.storyboard in Resources */,
+				428A2F7F1F6E174900A5265C /* 野球場イメージ.png in Resources */,
+				428A2F241F6E172700A5265C /* 野球場イメージ.jpg in Resources */,
+				428A2F1D1F6E172700A5265C /* バッターイメージ.png in Resources */,
 				421D349E1D84FD1700B6F68F /* バッターイメージ２.png in Resources */,
+				428A2F7C1F6E174900A5265C /* バッターイメージ２.png in Resources */,
+				428A2FD11F6E186300A5265C /* バッターイメージ２.png in Resources */,
+				428A2FCD1F6E186300A5265C /* バッターイメージ3.png in Resources */,
+				428A2FBA1F6E186300A5265C /* Images.xcassets in Resources */,
+				428A2F611F6E174900A5265C /* Main.storyboard in Resources */,
+				428A2F7B1F6E174900A5265C /* バッターイメージ２.jpg in Resources */,
+				428A2F0A1F6E172700A5265C /* Main.storyboard in Resources */,
+				428A2F231F6E172700A5265C /* 得点板.png in Resources */,
+				428A2F201F6E172700A5265C /* バッターイメージ5.png in Resources */,
+				428A2EC61F6E16AE00A5265C /* f22d8ea7.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,11 +1045,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				428A2FBC1F6E186300A5265C /* ViewController.swift in Sources */,
+				428A2FB71F6E186300A5265C /* AppDelegate.swift in Sources */,
+				428A2F051F6E172700A5265C /* AppDelegate.swift in Sources */,
 				42C6CBFC1DAA0FB500D1D01A /* ViewController2.swift in Sources */,
+				428A2F731F6E174900A5265C /* ResultViewController.swift in Sources */,
+				428A2F271F6E172700A5265C /* MusicGameTests.swift in Sources */,
+				428A2F761F6E174900A5265C /* ViewController.swift in Sources */,
 				425E01A11BAE70E900FA168D /* AppDelegate.swift in Sources */,
+				428A2F0E1F6E172700A5265C /* _______Tests.swift in Sources */,
+				428A2F2A1F6E172700A5265C /* ViewController2.swift in Sources */,
 				429DD61C1D3209A6003E7DD4 /* ViewController.swift in Sources */,
+				428A2F681F6E174900A5265C /* _______Tests.swift in Sources */,
+				428A2F081F6E172700A5265C /* AppDelegate.swift in Sources */,
+				428A2F721F6E174900A5265C /* PlayerViewController.swift in Sources */,
+				428A2FC71F6E186300A5265C /* PlayerViewController.swift in Sources */,
+				428A2F5F1F6E174900A5265C /* AppDelegate.swift in Sources */,
+				428A2FBD1F6E186300A5265C /* _______Tests.swift in Sources */,
+				428A2F1C1F6E172700A5265C /* ViewController.swift in Sources */,
 				42BB0B7C1C705FE4006151EA /* ResultViewController.swift in Sources */,
+				428A2F0D1F6E172700A5265C /* ViewController.swift in Sources */,
+				428A2FCB1F6E186300A5265C /* ViewController.swift in Sources */,
+				428A2F671F6E174900A5265C /* ViewController.swift in Sources */,
+				428A2F281F6E172700A5265C /* README.md in Sources */,
 				42B0A1541EDA6915001EDCE1 /* PlayerViewController.swift in Sources */,
+				428A2FC81F6E186300A5265C /* ResultViewController.swift in Sources */,
+				428A2F181F6E172700A5265C /* PlayerViewController.swift in Sources */,
+				428A2F621F6E174900A5265C /* AppDelegate.swift in Sources */,
+				428A2F191F6E172700A5265C /* ResultViewController.swift in Sources */,
+				428A2FB41F6E186300A5265C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -363,6 +1110,102 @@
 				425E01AA1BAE70E900FA168D /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		428A2ECE1F6E172700A5265C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				428A2ECF1F6E172700A5265C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		428A2ED01F6E172700A5265C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				428A2ED11F6E172700A5265C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		428A2ED51F6E172700A5265C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				428A2ED61F6E172700A5265C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		428A2ED71F6E172700A5265C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				428A2ED81F6E172700A5265C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		428A2F341F6E174900A5265C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				428A2F351F6E174900A5265C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		428A2F361F6E174900A5265C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				428A2F371F6E174900A5265C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		428A2F3B1F6E174900A5265C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				428A2F3C1F6E174900A5265C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		428A2F3D1F6E174900A5265C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				428A2F3E1F6E174900A5265C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		428A2F891F6E186300A5265C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				428A2F8A1F6E186300A5265C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		428A2F8B1F6E186300A5265C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				428A2F8C1F6E186300A5265C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		428A2F901F6E186300A5265C /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				428A2F911F6E186300A5265C /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		428A2F921F6E186300A5265C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				428A2F931F6E186300A5265C /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
